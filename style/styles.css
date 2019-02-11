@@ -39,8 +39,30 @@ header {
 
 .navigation-bar {
   flex: 0.7;
-  background-color: blueviolet;
   height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navigation-bar-item {
+  border-radius: 20px;
+  width: 128px;
+  height: 42px;
+  margin: 0 9px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.navigation-bar-item:after {
+  position: absolute;
+  content: "";
+  margin-top: 48px;
+  margin-left: 61.5px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 
 .main-container {
