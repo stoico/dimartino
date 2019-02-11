@@ -116,10 +116,12 @@ header {
 }
 
 .main-container {
-  width: 1480px;
+  width: 100%;
+  max-width: 1480px;
+  min-width: 1024px;
+  min-height: 400px;
   background: linear-gradient(75deg, #007bff 8%, #29eab1 100%);
   padding: 104px;
-  min-height: 400px;
   border-radius: 50px;
   margin-bottom: 96px;
   display: flex;
