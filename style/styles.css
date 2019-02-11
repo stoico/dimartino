@@ -266,17 +266,6 @@ ul {
   margin: auto;
 }
 
-/* .button-action:after {
-  content: "";
-  position: absolute;
-  margin-bottom: -6px;
-  max-width: 140px;
-  min-height: 50px;
-  border-radius: 40px;
-  background: #6f3f9e;
-  box-shadow: 0 3px 15px -5px #a55deb;
-} */
-
 footer {
   flex: 0.05;
   min-height: 65px;
