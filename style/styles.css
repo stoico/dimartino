@@ -175,14 +175,15 @@ header {
 }
 
 .content-subheading {
-  margin: 32px auto 0;
+  margin: 20px auto 12px;
   width: 800px;
   font-size: 26px;
+  line-height: 36px;
   font-family: "esemibold", Arial, Helvetica, sans-serif;
 }
 
 .content-paragraph {
-  margin: 0 auto 16px;
+  margin: 0 auto 26px;
   width: 800px;
   font-size: 22px;
   line-height: 30px;
