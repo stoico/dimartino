@@ -206,15 +206,34 @@ header {
 }
 
 .button-action {
-  max-width: 140px;
+  position: relative;
+  display: inline-block;
+  min-width: 140px;
+  max-width: 220px;
   min-height: 50px;
-  padding: 6px 24px 12px;
+  padding: 6px 28px 12px;
   background: linear-gradient(45deg, #a55deb 0%, #e75deb 100%);
   border-radius: 40px;
   font-family: "esemibold", Arial, Helvetica, sans-serif;
   color: #fff;
   font-size: 26px;
   text-align: center;
+  box-shadow: 0px 6px 0px #6f3f9e, 0 12px 15px -5px #a55deb;
+}
+.button-action:hover {
+  cursor: pointer;
+}
+
+.button-border {
+  display: inline-block;
+  border-radius: 40px;
+  background: #f5f5f5;
+  border: solid 10px #f5f5f5;
+  padding-bottom: 4px;
+}
+
+.center-horizontal {
+  margin: auto;
 }
 
 /* .button-action:after {
