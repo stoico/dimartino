@@ -25,10 +25,10 @@ header {
   height: 86px;
   width: 100%;
   max-width: 960px;
-  flex-direction: row;
-  background: red;
   display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -39,7 +39,6 @@ header {
 
 .navigation-bar {
   flex: 0.7;
-  align-self: flex-end;
   background-color: blueviolet;
   height: 100%;
 }
