@@ -91,6 +91,23 @@ header {
   background: #ef6853;
 }
 
+.active-item-red,
+.active-item-red:after {
+  background: #d62424;
+}
+.active-item-acquamarine,
+.active-item-acquamarine:after {
+  background: #1ac1cf;
+}
+.active-item-fuchsia,
+.active-item-fuchsia:hover {
+  background: #df5deb;
+}
+.active-item-orange,
+.active-item-orange:hover {
+  background: #ef6853;
+}
+
 .navigation-bar-item:hover {
   cursor: pointer;
 }
@@ -140,6 +157,36 @@ header {
 .poster-image {
   width: 100%;
   height: auto;
+  background: #007bff;
+  min-height: 180px;
+  border-radius: 21px;
+}
+
+.poster-image img {
+  width: 100%;
+  height: auto;
+}
+
+.content-heading {
+  margin: 32px auto 0;
+  width: 800px;
+  font-size: 48px;
+  font-family: "ebold", Arial, Helvetica, sans-serif;
+}
+
+.content-subheading {
+  margin: 32px auto 0;
+  width: 800px;
+  font-size: 26px;
+  font-family: "esemibold", Arial, Helvetica, sans-serif;
+}
+
+.content-paragraph {
+  margin: 0 auto 16px;
+  width: 800px;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: "eregular", Arial, Helvetica, sans-serif;
 }
 
 .author-container {
