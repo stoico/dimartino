@@ -160,7 +160,7 @@ header {
 .content-body {
   background: #fff;
   margin: 0 32px 64px;
-  min-height: 400px;
+  min-height: 260px;
   border-radius: 21px;
   padding-bottom: 48px;
   font-size: 22px;
@@ -235,6 +235,17 @@ ul {
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(-104deg, #fb19bd 0%, #ea8729 92%);
+}
+
+.author-title {
+  color: #fff;
+  font-family: "ebold", Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  padding: 34px 0;
+  width: 100%;
+  min-height: 100px;
+  text-align: center;
+  justify-self: center;
 }
 
 .button-action {
