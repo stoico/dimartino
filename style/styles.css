@@ -252,7 +252,7 @@ ul {
   position: relative;
   display: inline-block;
   min-width: 140px;
-  max-width: 220px;
+  max-width: 280px;
   min-height: 50px;
   padding: 14px 38px 18px;
   background: linear-gradient(45deg, #a55deb 0%, #e75deb 100%);
