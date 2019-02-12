@@ -95,23 +95,20 @@ header {
 .navigation-bar-item:hover:nth-child(1):after {
   background: #df5deb;
 }
+
 .navigation-bar-item:hover:nth-child(2):after {
-  background: #d62424;
-}
-.navigation-bar-item:hover:nth-child(3):after {
   background: #1ac1cf;
 }
-.navigation-bar-item:hover:nth-child(4):after {
+.navigation-bar-item:hover:nth-child(3):after {
   background: #ef6853;
+}
+.navigation-bar-item:hover:nth-child(4):after {
+  background: #d62424;
 }
 
 .active-item-fuchsia,
 .active-item-fuchsia:after {
   background: #df5deb;
-}
-.active-item-red,
-.active-item-red:after {
-  background: #d62424;
 }
 .active-item-acquamarine,
 .active-item-acquamarine:after {
@@ -120,6 +117,10 @@ header {
 .active-item-orange,
 .active-item-orange:after {
   background: #ef6853;
+}
+.active-item-red,
+.active-item-red:after {
+  background: #d62424;
 }
 
 .main-container {
