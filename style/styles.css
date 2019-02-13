@@ -209,6 +209,14 @@ header {
   border-radius: 20px;
 }
 
+.project-title {
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+  font-family: "esemibold";
+  padding: 20px 0;
+}
+
 .poster-image {
   width: 100%;
   height: auto;
