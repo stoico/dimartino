@@ -199,13 +199,14 @@ header {
   width: 100%;
   min-height: 50px;
   height: auto;
-  background: #a55deb;
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .project-poster img {
   width: 100%;
   height: auto;
+  border-radius: 20px;
 }
 
 .poster-image {
