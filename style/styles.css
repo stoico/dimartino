@@ -307,5 +307,204 @@ footer {
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 18px;
+  }
+
+  .page {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  header {
+    height: 68px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .main-container {
+    width: 100%;
+    min-width: auto;
+    padding: 22px;
+    min-height: 400px;
+    background: linear-gradient(75deg, #007bff 8%, #29eab1 100%);
+    border-radius: 50px;
+    margin-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-container {
+    flex: 1;
+    width: 100%;
+    min-height: 300px;
+    background: #202020;
+    box-shadow: 0 4px 45px -16px rgba(0, 36, 76, 1);
+    border-radius: 41px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navigation-bar-item {
+    display: none;
+  }
+
+  .article-width {
+    width: 84%;
+    margin: auto;
+  }
+
+  .content-container {
+    flex: 1;
+    width: 100%;
+    min-height: 300px;
+    background: #202020;
+    box-shadow: 0 4px 45px -16px rgba(0, 36, 76, 1);
+    border-radius: 41px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content-title {
+    color: #fff;
+    font-family: "ebold", Arial, Helvetica, sans-serif;
+    font-size: 6.5vw;
+    padding: 24px 0;
+    width: 100%;
+    min-height: 90px;
+    text-align: center;
+    justify-self: center;
+  }
+
+  .content-body {
+    background: #fff;
+    margin: 0 22px 38px;
+    min-height: 260px;
+    border-radius: 21px;
+    padding-bottom: 48px;
+    font-size: 18px;
+  }
+
+  .poster-image {
+    width: 100%;
+    height: auto;
+    background: #007bff;
+    min-height: 180px;
+    border-radius: 21px;
+    overflow: hidden;
+  }
+
+  .poster-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-heading {
+    margin: 36px auto 0;
+    font-size: 30px;
+    font-family: "ebold", Arial, Helvetica, sans-serif;
+  }
+
+  .content-subheading {
+    margin: 18px auto 10px;
+    font-size: 22px;
+    line-height: 32px;
+    font-family: "esemibold", Arial, Helvetica, sans-serif;
+  }
+
+  .content-paragraph {
+    margin: 0 auto;
+    padding-bottom: 22px;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "eregular", Arial, Helvetica, sans-serif;
+  }
+
+  ul {
+    margin: 14px auto 20px;
+    padding-bottom: 22px;
+  }
+
+  .tech li {
+    margin-bottom: 24px;
+    list-style: none;
+  }
+
+  .tech-icon {
+    height: 24px;
+    margin-bottom: -4px;
+    margin-right: 14px;
+    color: #3c3c3c;
+  }
+  .button-icon {
+    height: 14px;
+    margin-bottom: -1px;
+    margin-right: 3px;
+  }
+
+  .author-container {
+    width: 100%;
+    min-width: auto;
+    padding: 22px;
+    min-height: 200px;
+    border-radius: 50px;
+    margin-bottom: 46px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(-104deg, #fb19bd 0%, #ea8729 92%);
+  }
+
+  .author-title {
+    color: #fff;
+    font-family: "ebold", Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    padding: 24px 0;
+    width: 100%;
+    min-height: 40px;
+    text-align: center;
+    justify-self: center;
+  }
+
+  .button-action {
+    position: relative;
+    display: inline-block;
+    min-width: 100px;
+    max-width: 240px;
+    min-height: 40px;
+    padding: 12px 34px 16px;
+    background: linear-gradient(45deg, #a55deb 0%, #e75deb 100%);
+    border-radius: 40px;
+    font-family: "esemibold", Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+    box-shadow: 0px 6px 0px #6f3f9e, 0 12px 15px -5px #a55deb;
+  }
+  .button-action:hover {
+    background-image: linear-gradient(45deg, #9254d1 0%, #cd54d1 100%);
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+  .button-border {
+    display: inline-block;
+    border-radius: 40px;
+    background: #f5f5f5;
+    border: solid 6px #f5f5f5;
+    padding-bottom: 4px;
+  }
+
+  .center-horizontal {
+    margin: auto;
+  }
+
+  footer {
+    flex: 0.05;
+    min-height: 65px;
+  }
 }
