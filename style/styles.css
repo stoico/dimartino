@@ -190,9 +190,22 @@ header {
 .project-container {
   margin-top: 12px;
   flex: 0 48%;
-  background: #007bff;
+  background: #01407a;
   min-height: 280px;
   border-radius: 20px;
+}
+
+.project-poster {
+  width: 100%;
+  min-height: 50px;
+  height: auto;
+  background: #a55deb;
+  border-radius: 20px;
+}
+
+.project-poster img {
+  width: 100%;
+  height: auto;
 }
 
 .poster-image {
