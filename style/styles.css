@@ -62,6 +62,10 @@ header {
   justify-content: flex-end;
 }
 
+.navigation-bar a {
+  text-decoration: none;
+}
+
 .navigation-bar-item {
   color: #fff;
   text-align: center;
