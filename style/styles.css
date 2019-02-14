@@ -93,11 +93,10 @@ header {
 }
 
 .navigation-bar-item:hover:nth-child(1):after {
-  background: #df5deb;
-}
-
-.navigation-bar-item:hover:nth-child(2):after {
   background: #1ac1cf;
+}
+.navigation-bar-item:hover:nth-child(2):after {
+  background: #df5deb;
 }
 .navigation-bar-item:hover:nth-child(3):after {
   background: #ef6853;
@@ -106,13 +105,13 @@ header {
   background: #d62424;
 }
 
-.active-item-fuchsia,
-.active-item-fuchsia:after {
-  background: #df5deb;
-}
 .active-item-acquamarine,
 .active-item-acquamarine:after {
   background: #1ac1cf;
+}
+.active-item-fuchsia,
+.active-item-fuchsia:after {
+  background: #df5deb;
 }
 .active-item-orange,
 .active-item-orange:after {
