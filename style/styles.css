@@ -187,10 +187,33 @@ header {
   justify-content: space-evenly;
 }
 
+.project-category {
+  text-align: center;
+  margin-top: 12px;
+  flex: 0 48%;
+  font-size: 24px;
+  font-family: "esemibold";
+}
+
+.first-category {
+  color: #ea478c;
+}
+
+.second-category {
+  color: #01407a;
+}
+
+.first-category-bg {
+  background: #ea478c;
+}
+
+.second-category-bg {
+  background: #01407a;
+}
+
 .project-container {
   margin-top: 12px;
   flex: 0 48%;
-  background: #01407a;
   min-height: 280px;
   border-radius: 20px;
 }
