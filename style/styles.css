@@ -264,7 +264,7 @@ header {
 }
 
 .content-heading {
-  margin: 36px auto 0;
+  margin: 36px auto 15px;
   font-size: 48px;
   font-family: "ebold", Arial, Helvetica, sans-serif;
 }
@@ -279,8 +279,8 @@ header {
 .content-paragraph {
   margin: 0 auto;
   padding-bottom: 22px;
-  font-size: 22px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 37px;
   font-family: "eregular", Arial, Helvetica, sans-serif;
 }
 
