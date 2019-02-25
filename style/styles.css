@@ -366,7 +366,7 @@ ul {
 .project-navigation-bar {
   height: 90px;
   width: 100%;
-  margin: 70px auto 0;
+  margin: 37px auto -67px;
   display: flex;
   flex-direction: row;
   justify-content: center;
