@@ -395,12 +395,14 @@ ul {
 }
 
 .navigate-button {
+  width: max-content;
   padding: 12px;
   border-radius: 100px;
 }
 
 .navigate-button:hover {
   background: hsla(0, 0%, 100%, 0.2);
+  cursor: pointer;
 }
 
 .text-align-right {
