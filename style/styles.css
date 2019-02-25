@@ -415,7 +415,28 @@ ul {
   margin-left: 20px;
 }
 
+.button-icon-footer {
+  height: 14px;
+  opacity: 0.5;
+  margin-bottom: -1px;
+}
+
+.github-footer {
+  margin-left: 10px;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 6px 12px;
+  background: hsla(0, 0%, 100%, 0.05);
+}
+
+.github-footer:hover {
+  background: hsla(0, 0%, 100%, 0.15);
+}
+
 footer {
+  color: #939393;
+  padding: 55px 0;
+  text-align: center;
   flex: 0.05;
   min-height: 65px;
 }
