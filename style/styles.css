@@ -100,7 +100,7 @@ header {
   background: #1ac1cf;
 }
 .navigation-bar-item:hover:nth-child(2):after {
-  background: #df5deb;
+  background: #ff3d85;
 }
 .navigation-bar-item:hover:nth-child(3):after {
   background: #ef6853;
