@@ -179,7 +179,7 @@ header {
   color: #3c3c3c;
   font-family: "ebold", Arial, Helvetica, sans-serif;
   font-size: 68px;
-  padding: 36px 0;
+  padding: 36px 0 18px;
   width: 100%;
   text-align: center;
   justify-self: center;
@@ -322,7 +322,7 @@ ul {
 }
 
 .author-home-margin {
-  margin-top: -35px;
+  margin-top: -20px;
   margin-bottom: 24px;
 }
 
