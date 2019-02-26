@@ -185,7 +185,7 @@ header {
 
 .project-body {
   background: #fff;
-  margin: 0 32px 64px;
+  margin: 0 32px 0;
   min-height: 260px;
   border-radius: 21px;
   padding-bottom: 48px;
@@ -193,13 +193,13 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .project-category {
   text-align: center;
-  margin-top: 12px;
-  flex: 0 48%;
+  margin: 12px 0;
+  flex: 0 49.3%;
   font-size: 24px;
   font-family: "esemibold";
 }
