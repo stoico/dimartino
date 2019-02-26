@@ -449,6 +449,10 @@ footer {
   min-height: 65px;
 }
 
+footer a {
+  color: #eee;
+}
+
 /* ---------
 
 Highlighting 
