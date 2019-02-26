@@ -430,7 +430,7 @@ ul {
 }
 
 .github-footer {
-  margin-left: 10px;
+  margin-left: 2px;
   display: inline-block;
   border-radius: 20px;
   padding: 6px 12px;
@@ -442,6 +442,7 @@ ul {
 }
 
 footer {
+  font-size: 14px;
   color: #939393;
   padding: 55px 0;
   text-align: center;
