@@ -222,18 +222,19 @@ header {
 
 .project-container {
   margin-top: 12px;
-  flex: 0 48%;
+  flex: 0 49.3%;
   min-height: 280px;
   border-radius: 20px;
 }
 
 .project-container:hover {
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); */
+  transform: scale(1.02);
 }
 
 .project-poster {
   width: 100%;
-  min-height: 50px;
+  min-height: 450px;
   height: auto;
   border-radius: 20px;
   overflow: hidden;
