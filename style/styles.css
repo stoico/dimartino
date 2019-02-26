@@ -250,9 +250,6 @@ header {
   overflow: hidden;
 }
 
-.project-poster::after {
-}
-
 .project-poster img {
   width: 100%;
   height: auto;
