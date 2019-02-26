@@ -115,7 +115,9 @@ header {
 }
 .active-item-fuchsia,
 .active-item-fuchsia:after {
-  background: #df5deb;
+  background: #ff3d85;
+
+  /* background: #df5deb;  OLD colour */
 }
 .active-item-orange,
 .active-item-orange:after {
