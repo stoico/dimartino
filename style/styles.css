@@ -453,6 +453,22 @@ footer a {
   color: #eee;
 }
 
+.right-image {
+  width: 100%;
+  height: auto;
+  box-shadow: 0 8px 29px -10px rgba(0, 123, 255, 0.8);
+  border-radius: 18.82px;
+}
+
+.right-image img {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-radius: 18.82px;
+  overflow: hidden;
+  display: flex;
+}
+
 /* ---------
 
 Highlighting 
