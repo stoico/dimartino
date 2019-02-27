@@ -262,6 +262,7 @@ header {
   width: 100%;
   height: auto;
   border-radius: 20px;
+  display: flex;
 }
 
 .project-title {
@@ -284,6 +285,7 @@ header {
 .poster-image img {
   width: 100%;
   height: auto;
+  display: flex;
 }
 
 .content-heading {
