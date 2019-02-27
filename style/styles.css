@@ -629,6 +629,10 @@ Responsive
     line-height: 28px;
   }
 
+  .project-category {
+    font-size: calc(8px + 1.8vw);
+  }
+
   ul {
     margin: 14px auto 20px;
     padding-bottom: 22px;
