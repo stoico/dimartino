@@ -7,8 +7,7 @@ gulp.task("pug", function() {
     .src("templates/pages/*.pug")
     .pipe(
       pug({
-        doctype: "html",
-        pretty: false
+        pretty: true
       })
     ) // pipe to pug plugin
     .pipe(gulp.dest("build")); // tell gulp our output folder
