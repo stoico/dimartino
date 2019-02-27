@@ -4,7 +4,7 @@ const pug = require("gulp-pug");
 // run this task by typing in 'gulp pug' in CLI
 gulp.task("pug", function() {
   return gulp
-    .src("./*.pug")
+    .src("templates/*.pug")
     .pipe(pug()) // pipe to pug plugin
     .pipe(gulp.dest("build")); // tell gulp our output folder
 });
