@@ -1,7 +1,7 @@
 const gulp = require("gulp");
 const pug = require("gulp-pug");
 
-// run this task by typing in gulp pug in CLI
+// run this task by typing in 'gulp pug' in CLI
 gulp.task("pug", function() {
   return gulp
     .src("./*.pug")
