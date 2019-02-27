@@ -96,28 +96,26 @@ header {
   border-radius: 100%;
 }
 
-.navigation-bar-item:hover:nth-child(1):after {
-  background: #1ac1cf;
-}
-.navigation-bar-item:hover:nth-child(2):after {
+.navigation-bar a:hover:nth-child(1) .navigation-bar-item:after {
   background: #ff3d85;
 }
-.navigation-bar-item:hover:nth-child(3):after {
+.navigation-bar a:hover:nth-child(2) .navigation-bar-item:after {
+  background: #1ac1cf;
+}
+.navigation-bar a:hover:nth-child(3) .navigation-bar-item:after {
   background: #ef6853;
 }
-.navigation-bar-item:hover:nth-child(4):after {
+.navigation-bar a:hover:nth-child(4) .navigation-bar-item:after {
   background: #d62424;
 }
 
-.active-item-acquamarine,
-.active-item-acquamarine:after {
-  background: #1ac1cf;
-}
 .active-item-fuchsia,
 .active-item-fuchsia:after {
   background: #ff3d85;
-
-  /* background: #df5deb;  OLD colour */
+}
+.active-item-acquamarine,
+.active-item-acquamarine:after {
+  background: #1ac1cf;
 }
 .active-item-orange,
 .active-item-orange:after {
@@ -126,6 +124,10 @@ header {
 .active-item-red,
 .active-item-red:after {
   background: #d62424;
+}
+.active-item-purple,
+.active-item-purple:after {
+  background: #df5deb;
 }
 
 .main-container {
