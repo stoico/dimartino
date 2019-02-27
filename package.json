@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal web app showcasing my work.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoico/dimartino.git"
+  },
+  "keywords": [
+    "ux",
+    "product",
+    "design",
+    "portfolio"
+  ],
+  "author": "Carmine Di Martino",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stoico/dimartino/issues"
+  },
+  "homepage": "https://github.com/stoico/dimartino#readme"
+}
