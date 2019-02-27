@@ -581,17 +581,6 @@ Responsive
     margin-bottom: 36px;
   }
 
-  .content-container {
-    flex: 1;
-    width: 100%;
-    min-height: 300px;
-    background: #202020;
-    box-shadow: 0 4px 45px -16px rgba(0, 36, 76, 1);
-    border-radius: 41px;
-    display: flex;
-    flex-direction: column;
-  }
-
   .navigation-bar-item {
     display: none;
   }
@@ -599,7 +588,7 @@ Responsive
   .content-container {
     width: 100%;
     background: #fff;
-    box-shadow: 0 4px 45px -16px rgba(0, 36, 76, 1);
+    box-shadow: 0 1vw 4vw -2vw rgb(0, 36, 76);
   }
 
   .content-title {
