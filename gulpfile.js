@@ -13,4 +13,9 @@ gulp.task("pug", function() {
     .pipe(gulp.dest("build")); // tell gulp our output folder
 });
 
-gulp.task("default", gulp.series("pug"));
+// Copy 'style' folder into the 'build' folder
+gulp.task("copy-style-folder", function() {
+  return gulp.src("style/**").pipe(gulp.dest("build/style"));
+});
+
+gulp.task("default", gulp.series("pug", "copy-style-folder"));
