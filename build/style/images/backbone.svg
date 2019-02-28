@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="25px" viewBox="0 0 20 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>backbone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="backbone" fill="#3C3C3C" fill-rule="nonzero">
+            <path d="M10,5.875 L0.461,0.437 L0.461,24.135 L10,18.697 L19.539,24.135 L19.539,0.437 L10,5.875 Z M5.248,12.286 L10,9.577 L14.752,12.286 L10,14.995 L5.248,12.286 Z M3.618,5.643 L7.017,7.581 L3.618,9.519 L3.618,5.643 Z M3.618,15.053 L6.763,16.845 L3.618,18.638 L3.618,15.053 Z M16.382,18.638 L13.237,16.845 L16.382,15.052 L16.382,18.637 L16.382,18.638 Z M12.982,7.581 L16.381,5.643 L16.381,9.519 L12.982,7.581 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
