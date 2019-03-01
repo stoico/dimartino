@@ -39,6 +39,30 @@
     />
     <meta name="msapplication-TileColor" content="#2b5797" />
     <meta name="theme-color" content="#ffffff" />
+
+    <script>
+      // Toggles the alternative wireframe stylesheet.
+      // Adds and removes:  <link rel="stylesheet" href="./style/wireframe.css" />
+      // From <head>
+
+      let wireframe = false;
+      const head = document.head;
+      const link = document.createElement("link");
+
+      function switchToWireframe() {
+        if (wireframe) {
+          wireframe = false;
+          head.removeChild(link);
+        } else {
+          link.type = "text/css";
+          link.rel = "stylesheet";
+          link.href = "./style/wireframe.css";
+
+          wireframe = true;
+          head.appendChild(link);
+        }
+      }
+    </script>
   </head>
   <body>
     <div class="page">
@@ -64,6 +88,13 @@
       </header>
 
       <div class="main-container shorter-container pink-gradient">
+        <label class="toggle-switch">
+          High-fidelity
+          <input type="checkbox" onclick="switchToWireframe()" />
+          <i></i>
+          Wireframe
+        </label>
+
         <div class="content-container">
           <article
             class="article-width"
@@ -233,8 +264,7 @@
     <!-- .page end -->
 
     <footer>
-      Designed and implemented with ❤️ and 🍕 by Carmine. Peek behind the
-      curtains on
+      Designed and implemented with ❤️ and 🍕 by me. Peek behind the curtains on
       <a
         href="https://github.com/stoico/dimartino"
         target="_blank"
@@ -255,6 +285,7 @@
           const date = new Date();
           document.write(date.getYear() + 1900);
         </script>
+        Carmine Di Martino
       </div>
     </footer>
   </body>
