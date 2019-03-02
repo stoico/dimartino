@@ -4,11 +4,12 @@ header
 
     .navigation-bar
         a(href='index.html')
-            .navigation-bar-item.active-item-fuchsia
+            //- Add conditional class to show active navigation item 
+            .navigation-bar-item(class=(page.title === 'Home' ? 'active-item-fuchsia' : ''))
                 div Home
         a(href='portfolio.html')
-            .navigation-bar-item
+            .navigation-bar-item(class=(page.title === 'Portfolio' ? 'active-item-acquamarine' : ''))
                 div Portfolio
         a(href='aboutme.html')
-            .navigation-bar-item
+            .navigation-bar-item(class=(page.title === 'About me' ? 'active-item-orange' : ''))
                 div About me
