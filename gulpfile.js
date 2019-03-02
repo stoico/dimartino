@@ -10,12 +10,12 @@ gulp.task("pug", function() {
         pretty: true
       })
     ) // pipe to pug plugin
-    .pipe(gulp.dest("build")); // tell gulp our output folder
+    .pipe(gulp.dest("docs")); // tell gulp our output folder
 });
 
-// Copy 'style' folder into the 'build' folder
+// Copy 'style' folder into the 'docs' folder
 gulp.task("copy-style-folder", function() {
-  return gulp.src("style/**").pipe(gulp.dest("build/style"));
+  return gulp.src("style/**").pipe(gulp.dest("docs/style"));
 });
 
 gulp.task("default", gulp.series("pug", "copy-style-folder"));
