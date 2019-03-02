@@ -8,7 +8,7 @@ See it at: https://stoico.github.io/dimartino/
 
 ## How to use
 
-Pages and templated are built with Pug.
+Pages and templates are coded Pug and CSS.
 
 To generate the HTML and CSS files from Pug, run Gulp using the following command.
 
