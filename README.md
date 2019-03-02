@@ -10,12 +10,14 @@ See it at: https://stoico.github.io/dimartino/
 
 Pages and templates are coded Pug and CSS.
 
-To generate the HTML and CSS files from Pug, run Gulp using the following command.
+To generate the HTML and CSS files from Pug, run Gulp using the following command:
 
-`gulp`
+```
+gulp
+```
 
 ## Folder structure
 
-The source code can be found in the root folder (./).
+The source code can be found in the root folder (`./`).
 
-The code build is located in the (./docs). The website is hosted via GitHub Pages, which expects to find the content in the `docs` folder.
+The code build is located in the (`./docs`). The website is hosted via GitHub Pages, which expects to find the content in the `docs` folder.
