@@ -2,6 +2,9 @@
 //- 
 //- Fix Nav Bar selected item in pug
 
+- const page = {title: "Home"}
+
+
 doctype html
 html(lang='en')
     //- Head tag
@@ -12,8 +15,9 @@ html(lang='en')
         .page
             include ../components/header.pug
             include ../components/intro-container.pug
+            h1= page.title
             include ../components/projects-container.pug
             include ../components/think-short.pug
-        
+
         //- Footer
         include ../components/footer.pug
