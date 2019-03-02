@@ -14,6 +14,28 @@
     <link rel="mask-icon" href="./style/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="theme-color" content="#ffffff">
+    <script>
+      //- Toggles the alternative wireframe stylesheet.
+      //- Adds and removes:  <link rel="stylesheet" href="./style/wireframe.css" />
+      //- From <head>
+      let wireframe = false;
+      const head = document.head;
+      const link = document.createElement("link");
+      
+      function switchToWireframe() {
+          if (wireframe) {
+              wireframe = false;
+              head.removeChild(link);
+          } else {
+              link.type = "text/css";
+              link.rel = "stylesheet";
+              link.href = "./style/wireframe.css";
+      
+              wireframe = true;
+              head.appendChild(link);
+          }
+      }
+    </script>
   </head>
   <body>
     <div class="page">
@@ -117,7 +139,7 @@
         <script>
           const date = new Date();
           document.write(date.getYear() + 1900);
-        </script>
+        </script>Carmine Di Martino
       </div>
     </footer>
   </body>

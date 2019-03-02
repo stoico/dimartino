@@ -1,0 +1,331 @@
+@font-face {
+  font-family: "Redacted";
+  src: url(./fonts/redacted-regular.ttf);
+}
+@font-face {
+  font-family: "Redacted Script";
+  src: url(./fonts/redacted-script-regular.ttf);
+}
+@font-face {
+  font-family: "Redacted Script Bold";
+  src: url(./fonts/redacted-script-bold.ttf);
+}
+
+body {
+  background-color: #3c3c3c;
+  font-family: "Redacted Script", Arial, Helvetica, sans-serif;
+  color: #3c3c3c;
+}
+
+img {
+  content: url("./images/diagonals-thick.svg");
+}
+
+.page {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.logo {
+  background-image: url("./images/logo-black@1x.png");
+}
+
+.navigation-bar-item {
+  color: black;
+  font-family: "Redacted Script Bold", Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 5px solid black;
+}
+
+.navigation-bar-item {
+  cursor: pointer;
+}
+
+.navigation-bar-item:after {
+  border-radius: 0;
+  margin-top: 5px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.navigation-bar a:hover:nth-child(1) .navigation-bar-item:after {
+  background: black;
+}
+.navigation-bar a:hover:nth-child(2) .navigation-bar-item:after {
+  background: black;
+}
+.navigation-bar a:hover:nth-child(3) .navigation-bar-item:after {
+  background: black;
+}
+.navigation-bar a:hover:nth-child(4) .navigation-bar-item:after {
+  background: black;
+}
+
+.active-item-fuchsia,
+.active-item-fuchsia:after {
+  background: #e8e8e8;
+}
+.active-item-acquamarine,
+.active-item-acquamarine:after {
+  background: #e8e8e8;
+}
+.active-item-orange,
+.active-item-orange:after {
+  background: #e8e8e8;
+}
+.active-item-red,
+.active-item-red:after {
+  background: #e8e8e8;
+}
+.active-item-purple,
+.active-item-purple:after {
+  background: #e8e8e8;
+}
+
+.active-item-fuchsia:after,
+.active-item-acquamarine:after,
+.active-item-orange:after,
+.active-item-red:after,
+.active-item-purple:after {
+  background: black;
+}
+
+.main-container {
+  border-radius: 10px;
+  border: 5px black solid;
+  background: #e8e8e8;
+  border-width: 5px 5px 5px 5px;
+  border-radius: 95% 2% 97% 2%/2% 94% 2% 95%;
+}
+
+.content-container {
+  background: #fff;
+  box-shadow: none;
+  border-radius: 10px;
+  border: black 5px solid;
+}
+
+.content-title {
+  font-family: "Redacted Script Bold", Arial, Helvetica, sans-serif;
+}
+
+.project-category {
+  font-family: "Redacted Script Bold", Arial, Helvetica, sans-serif;
+}
+
+.project-container {
+  border-radius: 5px;
+  border: 3px solid black;
+}
+
+.project-poster {
+  background: url(./images/diagonals-thick.svg);
+  background-size: 100% 100%;
+}
+
+.project-title {
+  font-size: 34px;
+  font-family: "Redacted Script";
+}
+
+.content-heading {
+  font-family: "Redacted Script Bold", Arial, Helvetica, sans-serif;
+}
+
+.content-subheading {
+  font-family: "Redacted Script Bold", Arial, Helvetica, sans-serif;
+}
+
+.content-paragraph {
+  font-family: "Redacted Script", Arial, Helvetica, sans-serif;
+}
+
+.author-title {
+  color: #fff;
+  font-family: "ebold", Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  padding: 34px 0;
+  width: 100%;
+  min-height: 100px;
+  text-align: center;
+  justify-self: center;
+}
+
+.button-action {
+  font-family: "Redacted Script Bold";
+}
+.button-action:hover {
+  background-image: linear-gradient(45deg, #9254d1 0%, #cd54d1 100%);
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.button-border {
+  display: inline-block;
+  border-radius: 40px;
+  background: #f5f5f5;
+  border: solid 8px #f5f5f5;
+  padding-bottom: 4px;
+}
+
+.line-separator {
+  width: 1px;
+  height: 100%;
+  background: hsla(0, 0%, 100%, 0.2);
+  margin: 0 46px;
+  border-radius: 100%;
+}
+
+.navigate-arrow {
+  flex: 0.23;
+  color: #fff;
+  padding: 8px;
+  font-size: 22px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  letter-spacing: 0.05ch;
+}
+.navigate-arrow:hover {
+  cursor: pointer;
+}
+.navigate-arrow:hover .navigate-button {
+  background: hsla(0, 0%, 100%, 0.2);
+}
+
+.navigate-button {
+  width: max-content;
+  padding: 12px 24px;
+  border-radius: 100px;
+}
+
+.text-align-right {
+  text-align: right;
+}
+.text-align-left {
+  text-align: left;
+}
+
+.space-arrow {
+  margin-left: 20px;
+}
+
+.button-icon-footer {
+  height: 14px;
+  opacity: 0.5;
+  margin-bottom: -2px;
+  margin-right: 2px;
+}
+
+.github-footer {
+  border-radius: 0;
+}
+
+.handdrawn-1 {
+  border-width: 3px 4px 3px 5px;
+  border-radius: 95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+}
+.handdrawn-2 {
+  width: 350px;
+  border-width: 3px 3px 5px 5px;
+  border-radius: 4% 95% 6% 95%/95% 4% 92% 5%;
+  transform: rotate(-2deg);
+}
+
+.handdrawn-3 {
+  border-width: 5px 3px 3px 5px;
+  border-radius: 95% 4% 97% 5%/4% 94% 3% 95%;
+  transform: rotate(2deg);
+}
+
+footer {
+  font-size: 16px;
+  color: white;
+  padding: 55px 0;
+  text-align: center;
+  flex: 0.05;
+  min-height: 65px;
+}
+
+footer a {
+  color: #eee;
+}
+
+.right-image {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+}
+
+.right-image img {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  border-radius: 5px;
+  border: 3px black solid;
+  border-radius: 1% 95% 1% 95%/95% 2% 92% 1%;
+  overflow: hidden;
+  display: flex;
+}
+
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+  .logo {
+    width: 115px;
+    height: 18px;
+    background: url("./images/logo-black@2x.png") no-repeat center;
+    background-size: 115px 18px;
+  }
+}
+
+/* 
+--------------------------------------------
+  
+
+Responsive 
+
+
+--------------------------------------------
+*/
+
+@media only screen and (max-width: 1024px) {
+  .content-container {
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 1vw 4vw -2vw rgb(0, 36, 76);
+  }
+
+  .content-title {
+    color: #3c3c3c;
+    font-size: 6.5vw;
+    padding: 24px 0;
+    min-height: 90px;
+  }
+
+  .content-body {
+    background: #fff;
+    margin: 0 22px 38px;
+    padding-bottom: 48px;
+    font-size: 18px;
+  }
+
+  .button-action {
+    min-width: 100px;
+    max-width: 240px;
+    min-height: 40px;
+    padding: 12px 34px 16px;
+    background: linear-gradient(45deg, #a55deb 0%, #e75deb 100%);
+    font-size: 19px;
+    box-shadow: 0px 6px 0px #6f3f9e, 0 12px 15px -5px #a55deb;
+  }
+
+  .button-border {
+    background: #f5f5f5;
+    border: solid 6px #f5f5f5;
+  }
+}
