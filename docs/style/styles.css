@@ -761,4 +761,11 @@ Responsive
   .ring-container {
     display: none;
   }
+
+  .toggle-switch {
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 50px;
+    margin: -16px 0 16px;
+  }
 }
