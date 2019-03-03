@@ -298,7 +298,7 @@ Responsive
   .content-container {
     width: 100%;
     background: #fff;
-    box-shadow: 0 1vw 4vw -2vw rgb(0, 36, 76);
+    box-shadow: none;
   }
 
   .content-title {
@@ -320,9 +320,7 @@ Responsive
     max-width: 240px;
     min-height: 40px;
     padding: 12px 34px 16px;
-    background: linear-gradient(45deg, #a55deb 0%, #e75deb 100%);
     font-size: 19px;
-    box-shadow: 0px 6px 0px #6f3f9e, 0 12px 15px -5px #a55deb;
   }
 
   .button-border {
