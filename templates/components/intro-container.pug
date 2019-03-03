@@ -1,9 +1,5 @@
 .main-container.shorter-container.pink-gradient
-  label.toggle-switch
-    | High-fidelity
-    input(type='checkbox', onclick='switchToWireframe()')
-    i
-    |Wireframe
+  include ./particles/toggle-switch.pug
   .content-container
     article.article-width
       div(style='display:flex; flex-direction: row; align-items: center; height: auto;')
