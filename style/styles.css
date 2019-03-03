@@ -669,6 +669,7 @@ Responsive
     min-width: auto;
     padding: 22px;
     margin-bottom: 36px;
+    border-radius: 4vw;
   }
 
   .navigation-bar-item {
@@ -679,6 +680,7 @@ Responsive
     width: 100%;
     background: #fff;
     box-shadow: 0 1vw 2vw -2vw rgb(0, 36, 76);
+    border-radius: 3vw;
   }
 
   .content-title {
