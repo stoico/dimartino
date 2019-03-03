@@ -1,5 +1,5 @@
 .main-container.blue-gradient
-    unless page.title === 'Portfolio'
+    if page.title === 'Portfolio'
         include ../particles/toggle-switch.pug
     .content-container
         .content-title Portfolio
