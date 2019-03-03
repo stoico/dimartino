@@ -678,7 +678,7 @@ Responsive
   .content-container {
     width: 100%;
     background: #fff;
-    box-shadow: 0 1vw 4vw -2vw rgb(0, 36, 76);
+    box-shadow: 0 1vw 2vw -2vw rgb(0, 36, 76);
   }
 
   .content-title {
