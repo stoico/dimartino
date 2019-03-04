@@ -1,0 +1,9 @@
+a#email-link
+    .navigation-bar-item
+        div Contact
+//- Add email address dynamically to avoid
+script(type='text/javascript').
+    const user = 'name';
+    const domain = 'gmail.com';
+    const emailAddress = 'mailto:' + user + "@" + domain;
+    document.getElementById('email-link').setAttribute('href', emailAddress);
