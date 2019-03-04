@@ -4,7 +4,7 @@ const pug = require("gulp-pug");
 // run this task by typing in 'gulp pug' in CLI
 gulp.task("pug", function() {
   return gulp
-    .src("templates/pages/*.pug")
+    .src("./templates/pages/*.pug")
     .pipe(
       pug({
         pretty: true
@@ -15,7 +15,7 @@ gulp.task("pug", function() {
 
 // Copy 'style' folder into the 'docs' folder
 gulp.task("copy-style-folder", function() {
-  return gulp.src("style/**").pipe(gulp.dest("docs/style"));
+  return gulp.src("./style/**").pipe(gulp.dest("docs/style"));
 });
 
 // Watch for changes and run the tasks when a change is detected
