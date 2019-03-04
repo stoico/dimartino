@@ -18,4 +18,10 @@ gulp.task("copy-style-folder", function() {
   return gulp.src("style/**").pipe(gulp.dest("docs/style"));
 });
 
-gulp.task("default", gulp.series("pug", "copy-style-folder"));
+// Watch for changes and run the tasks when a change is detected
+gulp.task("watch", function() {
+  gulp.watch("./templates/**", gulp.series("pug"));
+  gulp.watch("./style/**", gulp.series("copy-style-folder"));
+});
+
+gulp.task("default", gulp.series("watch"));
