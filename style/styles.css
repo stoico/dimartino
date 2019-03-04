@@ -103,9 +103,12 @@ header {
   background: #1ac1cf;
 }
 .navigation-bar a:hover:nth-child(3) .navigation-bar-item:after {
-  background: #ef6853;
+  background: #ff2b5e;
 }
 .navigation-bar a:hover:nth-child(4) .navigation-bar-item:after {
+  background: #ef6853;
+}
+.navigation-bar a:hover:nth-child(5) .navigation-bar-item:after {
   background: #d62424;
 }
 
@@ -120,6 +123,10 @@ header {
 .active-item-orange,
 .active-item-orange:after {
   background: #ef6853;
+}
+.active-item-redorange,
+.active-item-redorange:after {
+  background: #ff2b5e;
 }
 .active-item-red,
 .active-item-red:after {
@@ -174,6 +181,10 @@ header {
 
 .rosy-gradient {
   background-image: linear-gradient(-104deg, #fb19bd 0%, #ff8296 100%);
+}
+
+.red-gradient {
+  background-image: linear-gradient(131deg, #fe5d49 0%, #ea2979 92%);
 }
 
 .article-width {
