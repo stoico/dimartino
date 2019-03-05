@@ -6,6 +6,12 @@
 
 See it at: https://stoico.github.io/dimartino/
 
+# Tech stack
+
+The website is built using the Pug.js templating engine and CSS.
+
+Pug files are compiled into HTML code using Gulp.js.
+
 ## How to use
 
 Pages and templates are coded Pug and CSS.
