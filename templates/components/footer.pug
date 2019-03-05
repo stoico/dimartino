@@ -1,4 +1,11 @@
 footer
+  .div(style="text-align:center; margin-bottom: 40px; font-size: 20px; color: white")
+    | Say hi 👋🏻 at 
+    a#hi-footer
+      .github-footer
+        script.
+          document.write(userNav + "@" + domainNav)
+          document.getElementById('hi-footer').setAttribute('href', emailAddressNav);
   | Designed and implemented with ❤️ and 🍕 by me. Peek behind the
   | curtains on 
   a(href='https://github.com/stoico/dimartino', target='_blank', rel='noreferrer')
