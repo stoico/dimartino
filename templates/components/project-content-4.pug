@@ -1,0 +1,43 @@
+.main-container.blue-gradient
+  label.toggle-switch
+    | High-fidelity
+    input(type='checkbox', onclick='switchToWireframe()')
+    i
+    |Wireframe
+  .content-container
+    .content-title Startup Map Backbone.js
+    .content-body
+      article.article-width
+        .content-heading Description
+        .content-subheading
+          | One-liner to explain what the project consists of
+        .content-paragraph
+          | Cupcake ipsum dolor sit amet liquorice. Sesame snaps cake
+          | chocolate bar I love. Caramels pie gummi bears
+          b toffee
+          |  lemon drops bonbon pie cake. Danish soufflé
+          | brownie soufflé jelly biscuit.
+        .content-paragraph
+          | Cupcake ipsum dolor sit amet liquorice. Sesame snaps cake
+          | chocolate bar I love. Caramels pie 
+          b gummi bears
+          |  toffee
+          | lemon drops bonbon pie cake. Danish soufflé brownie soufflé
+          | jelly biscuit.
+        div(style='text-align: center;')
+          .button-border
+            .button-action(style='font-size: 18px;')
+              img.button-icon(src='./style/images/file.svg', alt='Github' style="margin-right: 10px;")
+              | Full Case Study .pdf
+        div(style='text-align: center; margin-top: 4px; font-size: 14px;')
+          | 10.6 MB
+  .project-navigation-bar
+    .navigate-arrow.text-align-right
+      .navigate-button
+        span(style='margin-right: 20px;') ⟵
+        |               Previous project
+    .line-separator
+    .navigate-arrow.text-align-left
+      .navigate-button
+        | Next project
+        span(style='margin-left: 20px;') ⟶
