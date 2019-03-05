@@ -8,7 +8,7 @@ See it at: https://stoico.github.io/dimartino/
 
 # Tech stack
 
-The website is built using the Pug.js templating engine and CSS.
+The website is built using the Pug.js templating engine, CSS and JavaScript.
 
 Pug files are compiled into HTML code using Gulp.js.
 
