@@ -462,6 +462,24 @@ ul {
   margin-right: 2px;
 }
 
+.ui-thumbnail {
+  flex: 0 32.45%;
+  min-height: 290px;
+  margin-top: 12px;
+  border-radius: 20px;
+  background: #1780dd;
+}
+
+.ui-thumbnail:hover {
+  transform: scale(1.5);
+  /* Translates to 436px */
+}
+
+.ui-thumbnail img {
+  display: block;
+  width: 100%;
+}
+
 .github-footer {
   margin-left: 2px;
   display: inline-block;
