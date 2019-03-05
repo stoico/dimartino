@@ -273,6 +273,10 @@ header {
   transform: scale(1.02);
 }
 
+.project-container a {
+  text-decoration: none;
+}
+
 .project-poster {
   width: 100%;
   min-height: 450px;
