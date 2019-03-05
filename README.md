@@ -14,7 +14,7 @@ Pug files are compiled into HTML code using Gulp.js.
 
 ## How to use
 
-Pages and templates are coded Pug and CSS.
+Pages and templates are coded in Pug and CSS.
 
 To generate the HTML and CSS files from Pug, run Gulp using the following command:
 
