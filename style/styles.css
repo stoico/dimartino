@@ -23,6 +23,16 @@ body {
   color: #3c3c3c;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  all: initial;
+  * {
+    all: unset;
+  }
+}
+
 .page {
   display: flex;
   flex-direction: column;
