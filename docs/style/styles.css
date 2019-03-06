@@ -23,6 +23,16 @@ body {
   color: #3c3c3c;
 }
 
+h1,
+h2,
+h3,
+h4 {
+  all: initial;
+  * {
+    all: unset;
+  }
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -388,6 +398,7 @@ ul {
   font-size: 26px;
   text-align: center;
   box-shadow: 0px 6px 0px #6f3f9e, 0 12px 15px -5px #a55deb;
+  background-clip: padding-box;
 }
 .button-action:hover {
   background-image: linear-gradient(45deg, #9254d1 0%, #cd54d1 100%);
@@ -398,7 +409,6 @@ ul {
 .button-border {
   display: inline-block;
   border-radius: 40px;
-  background: #f5f5f5;
   border: solid 8px #f5f5f5;
   padding-bottom: 4px;
 }
@@ -793,10 +803,10 @@ Responsive
     background: linear-gradient(45deg, #a55deb 0%, #e75deb 100%);
     font-size: 19px;
     box-shadow: 0px 6px 0px #6f3f9e, 0 12px 15px -5px #a55deb;
+    background-clip: padding-box;
   }
 
   .button-border {
-    background: #f5f5f5;
     border: solid 6px #f5f5f5;
   }
 
