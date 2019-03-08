@@ -486,7 +486,6 @@ ul {
 
 .ui-thumbnail {
   flex: 0 32.45%;
-  min-height: 290px;
   margin-top: 12px;
   border-radius: 20px;
   background: #1780dd;
