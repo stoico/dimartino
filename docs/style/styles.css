@@ -823,4 +823,8 @@ Responsive
     border-radius: 50px;
     margin: -10px 0 10px;
   }
+
+  .navigate-arrow {
+    font-size: 2vw;
+  }
 }
