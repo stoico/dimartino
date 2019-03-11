@@ -725,9 +725,19 @@ Responsive
     border-radius: 4vw;
   }
 
-  /* .navigation-bar-item {
-    display: none;
-  } */
+  .navigation-bar-item {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+  .navigation-bar-item:after {
+    margin-top: 4px;
+    margin-left: -6px;
+    width: 8px;
+    height: 8px;
+  }
 
   .navigation-bar a:nth-child(1) {
     display: none;
