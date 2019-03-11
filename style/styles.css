@@ -725,7 +725,14 @@ Responsive
     border-radius: 4vw;
   }
 
-  .navigation-bar-item {
+  /* .navigation-bar-item {
+    display: none;
+  } */
+
+  .navigation-bar a:nth-child(1) {
+    display: none;
+  }
+  .navigation-bar a:nth-child(4) {
     display: none;
   }
 
