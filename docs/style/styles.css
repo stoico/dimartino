@@ -730,11 +730,12 @@ Responsive
     height: 30px;
     line-height: 30px;
     font-size: 12px;
+    margin: 0 5px;
   }
 
   .navigation-bar-item:after {
     margin-top: 4px;
-    margin-left: -6px;
+    margin-left: -4px;
     width: 8px;
     height: 8px;
   }
