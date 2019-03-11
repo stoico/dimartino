@@ -443,7 +443,6 @@ ul {
 }
 
 .navigate-arrow {
-  flex: 0.23;
   color: #fff;
   padding: 8px;
   font-size: 22px;
@@ -824,6 +823,9 @@ Responsive
     margin: -10px 0 10px;
   }
 
+  .project-navigation-bar {
+    margin: 16px auto -4px;
+  }
   .navigate-arrow {
     font-size: 2vw;
   }
