@@ -714,7 +714,8 @@ Responsive
 
   header {
     height: 68px;
-    padding: 20px;
+    width: 90%;
+    padding: 20px 0;
   }
 
   .main-container {
