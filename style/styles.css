@@ -728,13 +728,13 @@ Responsive
   .navigation-bar-item {
     width: 80px;
     height: 30px;
-    line-height: 30px;
+    line-height: 28px;
     font-size: 12px;
     margin: 0 5px;
   }
 
   .navigation-bar-item:after {
-    margin-top: 4px;
+    margin-top: 7px;
     margin-left: -4px;
     width: 8px;
     height: 8px;
