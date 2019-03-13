@@ -779,8 +779,10 @@ Responsive
   }
 
   .content-paragraph {
-    font-size: 4vw;
-    line-height: 5.5vw;
+    /* font-size: 4vw;
+    line-height: 5.5vw;     */
+    font-size: calc(0.5vw + 14px);
+    line-height: calc(2.5vw + 16px);
   }
 
   .project-category {
