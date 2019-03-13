@@ -757,8 +757,7 @@ Responsive
   .content-title {
     color: #3c3c3c;
     font-size: 6.5vw;
-    padding: 24px 0;
-    min-height: 90px;
+    padding: 6vw 0 3vw;
   }
 
   .content-body {
@@ -769,8 +768,8 @@ Responsive
   }
 
   .content-heading {
-    margin: 36px auto 0;
-    font-size: 30px;
+    margin: 3vw auto 0;
+    font-size: 5vw;
   }
 
   .content-subheading {
