@@ -345,6 +345,45 @@ header {
   font-family: "eregular", Arial, Helvetica, sans-serif;
 }
 
+blockquote {
+  margin: 50px 60px 100px;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "eregular", Arial, Helvetica, sans-serif;
+  background: hsla(199, 100%, 49%, 0.1);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+blockquote:before {
+  position: absolute;
+  content: "";
+  width: 59px;
+  height: 39px;
+  margin-top: -17px;
+  margin-left: -89px;
+  background: url("./images/quote-top-left.png") top left no-repeat;
+}
+
+blockquote:after {
+  position: absolute;
+  content: "";
+  width: 59px;
+  height: 39px;
+  margin-top: 9px;
+  margin-left: 159px;
+  background: url("./images/quote-bottom-right.png") bottom right no-repeat;
+}
+
+cite {
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: right;
+  float: right;
+  font-style: normal;
+  font-family: "eregular", Arial, Helvetica, sans-serif;
+}
+
 ul {
   margin: 16px auto 22px;
   padding-bottom: 22px;
@@ -689,6 +728,16 @@ Highlighting
     height: 18px;
     background: url("./images/logo@2x.png") no-repeat center;
     background-size: 115px 18px;
+  }
+
+  blockquote:before {
+    background: url("./images/quote-top-left@2x.png") top left no-repeat;
+    background-size: 59px 39px;
+  }
+
+  blockquote:after {
+    background: url("./images/quote-bottom-right@2x.png") bottom right no-repeat;
+    background-size: 59px 39px;
   }
 }
 
