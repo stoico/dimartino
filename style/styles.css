@@ -28,9 +28,6 @@ h2,
 h3,
 h4 {
   all: initial;
-  * {
-    all: unset;
-  }
 }
 
 .page {
@@ -346,7 +343,7 @@ header {
 }
 
 blockquote {
-  margin: 50px 60px 100px;
+  margin: 20px 60px 70px;
   font-size: 18px;
   line-height: 28px;
   font-family: "eregular", Arial, Helvetica, sans-serif;
