@@ -342,6 +342,18 @@ header {
   font-family: "eregular", Arial, Helvetica, sans-serif;
 }
 
+.project-summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 1;
+  padding-right: 15px;
+}
+
 blockquote {
   margin: 20px 60px 70px;
   font-size: 18px;
