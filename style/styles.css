@@ -467,6 +467,8 @@ ul {
   box-shadow: 0px 6px 0px #6e6e6e, 0 12px 15px -5px #5c5c5c; */
   background: linear-gradient(105deg, #c3c3c3 0%, #cbcbcb 100%);
   box-shadow: 0px 6px 0px #acacac, 0 12px 15px -5px #d3d3d3;
+  /* Use inline-table to fix the visual glitch around the corner */
+  display: inline-table;
 }
 
 .center-horizontal {
