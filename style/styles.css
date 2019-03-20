@@ -30,6 +30,11 @@ h4 {
   all: initial;
 }
 
+b,
+strong {
+  font-family: "esemibold";
+}
+
 .page {
   display: flex;
   flex-direction: column;
