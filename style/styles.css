@@ -330,6 +330,16 @@ header {
   display: flex;
 }
 
+.project-description {
+  color: white;
+  padding: 0 20px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "eregular", Arial, Helvetica, sans-serif;
+}
+
 .content-heading {
   display: inline-block;
   margin: 20px auto 0px;
