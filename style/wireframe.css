@@ -21,6 +21,11 @@ img {
   content: url("./images/diagonals-thick.svg");
 }
 
+b,
+strong {
+  font-family: "Redacted Script";
+}
+
 .page {
   background-color: white;
   border-bottom-right-radius: 5px;
@@ -126,6 +131,11 @@ img {
 
 .project-title {
   font-size: 34px;
+  font-family: "Redacted Script";
+}
+
+.project-description {
+  font-size: 22px;
   font-family: "Redacted Script";
 }
 
