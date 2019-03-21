@@ -1,5 +1,6 @@
 const gulp = require("gulp");
 const pug = require("gulp-pug");
+const browserSync = require("browser-sync").create(); // create a browser sync instance.
 
 // run this task by typing in 'gulp pug' in CLI
 gulp.task("pug", function() {
@@ -20,8 +21,15 @@ gulp.task("copy-style-folder", function() {
 
 // Watch for changes and run the tasks when a change is detected
 gulp.task("watch", function() {
+  browserSync.init({
+    server: {
+      baseDir: "./docs/"
+    }
+  });
+
   gulp.watch("./templates/**", gulp.series("pug"));
   gulp.watch("./style/**", gulp.series("copy-style-folder"));
+  gulp.watch("./docs/").on("change", browserSync.reload);
 });
 
 gulp.task("default", gulp.series("watch"));
