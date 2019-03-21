@@ -1,9 +1,19 @@
 .main-container.blue-gradient
   include ../particles/toggle-switch.pug
   .content-container
-    .content-title Startup Map Backbone.js
+    .content-title Full-stack Python web app
     .content-body
+      .poster-image
+        img(srcset='\
+        ./style/images/fullstack-cover@2x.png 2x,\
+        ./style/images/fullstack-cover.png    1x\
+        ', src='./style/images/fullstack-cover.png')
       article.article-width
+        div(style='text-align: center; margin-top: -42px;')
+          .button-border
+            .button-action
+              img.button-icon(src='./style/images/eye.svg', alt='See demo', style='width: 24px')
+              | Demo
         .content-heading Description
         .content-subheading
           | One-liner to explain what the project consists of
