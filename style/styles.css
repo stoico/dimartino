@@ -610,6 +610,18 @@ footer a {
   display: flex;
 }
 
+.tag-available {
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 720px;
+  width: 210px;
+  font-size: 11px;
+  background: #95ff70;
+  border-radius: 40px;
+  color: #0e6c00;
+  padding: 10px;
+}
+
 /* ---------
 
 Toggle Switch 
