@@ -558,11 +558,14 @@ ul {
   margin-top: 12px;
   border-radius: 20px;
   background: #1780dd;
+  transition: transform 0.1s;
 }
 
 .ui-thumbnail:hover {
-  transform: scale(1.5);
+  /* Translates to 524px */
+  transform: scale(1.8);
   /* Translates to 436px */
+  /* transform: scale(1.5); */
 }
 
 .ui-thumbnail img {
