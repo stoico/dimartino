@@ -282,10 +282,10 @@ header {
   flex: 0 49.3%;
   min-height: 280px;
   border-radius: 20px;
+  transition: transform 0.1s;
 }
 
 .project-container:hover {
-  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); */
   transform: scale(1.02);
 }
 
