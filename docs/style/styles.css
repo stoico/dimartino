@@ -1,3 +1,9 @@
+/* 
+- Change the font-size unit to em
+- Change the line-height to no unit
+- Change border-radius to em
+*/
+
 * {
   box-sizing: border-box;
 }
@@ -109,13 +115,13 @@ header {
 }
 
 .navigation-bar a:hover:nth-child(1) .navigation-bar-item:after {
-  background: #ff3d85;
+  background: #ff305a;
 }
 .navigation-bar a:hover:nth-child(2) .navigation-bar-item:after {
-  background: #1ac1cf;
+  background: #0080ff;
 }
 .navigation-bar a:hover:nth-child(3) .navigation-bar-item:after {
-  background: #ff2b5e;
+  background: #ff3855;
 }
 .navigation-bar a:hover:nth-child(4) .navigation-bar-item:after {
   background: #df5deb;
@@ -129,11 +135,11 @@ header {
 
 .active-item-fuchsia,
 .active-item-fuchsia:after {
-  background: #ff3d85;
+  background: #ff305a;
 }
 .active-item-acquamarine,
 .active-item-acquamarine:after {
-  background: #1ac1cf;
+  background: #0080ff;
 }
 .active-item-orange,
 .active-item-orange:after {
@@ -141,7 +147,7 @@ header {
 }
 .active-item-redorange,
 .active-item-redorange:after {
-  background: #ff2b5e;
+  background: #ff3855;
 }
 .active-item-red,
 .active-item-red:after {
@@ -175,7 +181,7 @@ header {
 }
 
 .just-blue-gradient {
-  background: linear-gradient(75deg, #007bff 8%, #0e44bf 100%);
+  background: linear-gradient(75deg, #0094ff 0%, #007bff 100%);
 }
 
 .pink-gradient {
