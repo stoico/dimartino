@@ -1,3 +1,9 @@
+/* 
+- Change the font-size unit to em
+- Change the line-height to no unit
+- Change border-radius to em
+*/
+
 * {
   box-sizing: border-box;
 }
