@@ -562,9 +562,10 @@ ul {
 .ui-thumbnail {
   flex: 0 32.45%;
   margin-top: 12px;
-  border-radius: 20px;
-  background: #1780dd;
+  border-radius: 4px;
+  background: hsla(0, 0%, 97%, 1);
   transition: transform 0.1s;
+  overflow: hidden;
 }
 
 .ui-thumbnail:hover {
