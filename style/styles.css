@@ -562,8 +562,8 @@ ul {
 .ui-thumbnail {
   flex: 0 32.45%;
   margin-top: 12px;
-  border-radius: 4px;
-  background: hsla(0, 0%, 97%, 1);
+  border-radius: 11px;
+  background: hsl(202, 100%, 85%);
   transition: transform 0.1s;
   overflow: hidden;
 }
