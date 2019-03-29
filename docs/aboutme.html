@@ -56,7 +56,7 @@
               <div style="display: flex; align-items: center; justify-content: center; padding-top: 4px; height: 38px;"><img src="./style/images/envelope.svg" alt="Contact me" style="width: 20px;"></div>
             </div></a>
           <script>
-            const userNav = 'name';
+            const userNav = 'cardimart';
             const domainNav = 'gmail.com';
             const emailAddressNav = 'mailto:' + userNav + "@" + domainNav;
             document.getElementById('email-link').setAttribute('href', emailAddressNav);
@@ -115,30 +115,20 @@
                 <li><img class="tech-icon" src="./style/images/graduation-cap.svg" alt="HTML5">MA, User Experience Design<span style="font-size: 15px; display: inherit; margin: 10px 0 0 45px;">Loughborough University</span></li>
                 <li><img class="tech-icon" src="./style/images/graduation-cap.svg" alt="CSS">BSc, Computer Science and Business Administration<span style="font-size: 15px; display: inherit; margin: 10px 0 0 45px;"> University of Kent</span></li>
               </ul>
-              <div class="content-subheading">Stalk me or say hello</div>
+              <div class="content-heading">Say hello</div>
               <div style="text-align: center; margin-top: 30px;">
-                <div class="button-border">
-                  <div class="button-action"><img class="button-icon" src="./style/images/envelope-solid.svg" alt="Email">Email</div>
-                </div>
-                <div class="button-border">
-                  <div class="button-action"><img class="button-icon" src="./style/images/file-pdf.svg" alt="Portfolio">CV</div>
-                </div>
-              </div>
-              <div style="text-align: center; margin-top: 30px;">
-                <div class="button-border">
-                  <div class="button-action"><img class="button-icon" src="./style/images/envelope-solid.svg" alt="Email">Email</div>
-                </div>
-                <div class="button-border">
-                  <div class="button-action"><img class="button-icon" src="./style/images/github.svg" alt="Github">Github</div>
-                </div>
-                <div class="button-border">
-                  <div class="button-action"><img class="button-icon" src="./style/images/linkedin.svg" alt="Linkedin">Linkedin</div>
-                </div>
+                <div class="button-border"><a id="email-button">
+                    <div class="button-action"><img class="button-icon" src="./style/images/envelope-solid.svg" alt="Email">Email</div></a></div>
+                <div class="button-border"><a href="https://github.com/stoico/dimartino" target="_blank">
+                    <div class="button-action"><img class="button-icon" src="./style/images/github.svg" alt="Github">Github</div></a></div>
+                <div class="button-border"><a href="https://www.linkedin.com/in/carmine-dimartino/" target="_blank">
+                    <div class="button-action"><img class="button-icon" src="./style/images/linkedin.svg" alt="Linkedin">Linkedin</div></a></div>
               </div>
             </article>
           </div>
         </div>
       </div>
+      <script>document.getElementById('email-button').setAttribute('href', emailAddressNav);</script>
       <div class="main-container shorter-container green-gradient">
         <div class="content-container">
           <div class="content-title">My Design Process</div>
@@ -151,7 +141,8 @@
               guide in my research and development process. 
             </div>
             <div class="content-paragraph" style="margin: 0 0 20px;">Other sources who shaped my thinking are: Steve Blank's <b>Customer Development </b>(The Startup Owner's Manual), Clayton Christensen's <b> Innovator's Dilemma </b>and <b> Jobs-to-Be-Done </b>theory, 
-              and Rita Gunther McGrath's Transient Advantage and The End of Competitive Advantage.
+              Rita Gunther McGrath's Transient Advantage and The End of Competitive Advantage
+              and Tim Brown's <b>Change By Design</b>.
             </div>
           </article>
         </div>
