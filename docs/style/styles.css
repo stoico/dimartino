@@ -87,6 +87,7 @@ header {
 .navigation-bar-item {
   color: #fff;
   text-align: center;
+  cursor: pointer;
   font-family: "esemibold", Arial, Helvetica, sans-serif;
   align-items: center;
   border-radius: 20px;
@@ -97,10 +98,6 @@ header {
   vertical-align: middle;
   margin: 0 9px;
   background: rgba(255, 255, 255, 0.1);
-}
-
-.navigation-bar-item {
-  cursor: pointer;
 }
 
 .navigation-bar-item:after {
