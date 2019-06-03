@@ -4,7 +4,7 @@
 
 [![alt text](style/images/site-screenshot.png "Portfolio - Web Screenshot")](https://stoico.github.io/dimartino/)
 
-See it at: https://stoico.github.io/dimartino/
+See it at: https://dimarti.no
 
 # Tech stack
 
