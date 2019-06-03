@@ -913,6 +913,13 @@ Responsive
     border-radius: 3vw;
   }
 
+  .single-column-project-container .project-title {
+    font-size: 1em;
+  }
+
+  .single-column-project-container .project-description {
+    display: none;
+  }
   .content-title {
     color: #3c3c3c;
     font-size: 6.5vw;
