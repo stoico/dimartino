@@ -29,11 +29,11 @@ gulp.task("minify-images", () =>
 
 // Watch for changes and run the tasks when a change is detected
 gulp.task("watch", function() {
-  browserSync.init({
-    server: {
-      baseDir: "./docs/"
-    }
-  });
+  // browserSync.init({
+  //   server: {
+  //     baseDir: "./docs/"
+  //   }
+  // });
 
   gulp.watch("./templates/**", gulp.series("pug"));
   gulp.watch("./style/**", gulp.series("copy-style-folder"));
