@@ -1,0 +1,18 @@
+- const page = {title: "Home"}
+
+doctype html
+html(lang='en')
+    //- Head tag
+    include ../components/head.pug
+
+    body
+        //- Content
+        .page
+            include ../components/header.pug
+            include ../components/intro-container.pug
+            include ../components/apm-projects-container.pug
+            include ../components/ui-short.pug
+
+
+        //- Footer
+        include ../components/footer.pug
