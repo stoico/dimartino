@@ -87,7 +87,6 @@ header {
 .navigation-bar-item {
   color: #fff;
   text-align: center;
-  cursor: pointer;
   font-family: "esemibold", Arial, Helvetica, sans-serif;
   align-items: center;
   border-radius: 20px;
@@ -98,6 +97,10 @@ header {
   vertical-align: middle;
   margin: 0 9px;
   background: rgba(255, 255, 255, 0.1);
+}
+
+.navigation-bar-item {
+  cursor: pointer;
 }
 
 .navigation-bar-item:after {
@@ -219,7 +222,7 @@ header {
   max-width: 960px;
   min-height: 300px;
   background: #fff;
-  box-shadow: 0 4px 45px -16px rgba(0, 36, 76, 1);
+  box-shadow: 0 4px 45px -16px #0062ff54;
   border-radius: 41px;
   display: flex;
   flex-direction: column;
@@ -341,6 +344,63 @@ header {
   font-size: 18px;
   line-height: 22px;
   font-family: "eregular", Arial, Helvetica, sans-serif;
+}
+
+/* Single colum projects overview */
+
+.single-column-project-container {
+  margin-top: 12px;
+  width: 100%;
+  min-height: 100px;
+  border-radius: 20px;
+  transition: transform 0.1s;
+  background: linear-gradient(75deg, #0094ff 0%, #007bff 100%);
+}
+
+.single-column-project-container:hover {
+  transform: scale(1.02);
+}
+
+.single-column-project-container a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.single-column-project-container .project-poster {
+  flex: 0.22;
+  height: auto;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.single-column-project-container .project-poster img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  display: flex;
+}
+
+.single-column-project-container .project-info {
+  flex: 0.78;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.single-column-project-container .project-title {
+  font-size: 1.3em;
+  color: #fff;
+  text-align: left;
+  padding: 0 30px 12px;
+}
+
+.single-column-project-container .project-description {
+  color: rgba(255, 255, 255, 0.75);
+  padding: 0 40px 0 30px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .content-heading {
@@ -853,6 +913,13 @@ Responsive
     border-radius: 3vw;
   }
 
+  .single-column-project-container .project-title {
+    font-size: 1em;
+  }
+
+  .single-column-project-container .project-description {
+    display: none;
+  }
   .content-title {
     color: #3c3c3c;
     font-size: 6.5vw;
