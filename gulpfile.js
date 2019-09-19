@@ -4,7 +4,7 @@ const browserSync = require("browser-sync").create(); // create a browser sync i
 const imagemin = require("gulp-imagemin");
 
 // run this task by typing in 'gulp pug' in CLI
-gulp.task("pug", function() {
+gulp.task("pug", function () {
   return gulp
     .src("./templates/pages/*.pug")
     .pipe(
@@ -16,7 +16,7 @@ gulp.task("pug", function() {
 });
 
 // Copy 'style' folder into the 'docs' folder
-gulp.task("copy-style-folder", function() {
+gulp.task("copy-style-folder", function () {
   return gulp.src("./style/**").pipe(gulp.dest("docs/style"));
 });
 
@@ -28,12 +28,12 @@ gulp.task("minify-images", () =>
 );
 
 // Watch for changes and run the tasks when a change is detected
-gulp.task("watch", function() {
-  // browserSync.init({
-  //   server: {
-  //     baseDir: "./docs/"
-  //   }
-  // });
+gulp.task("watch", function () {
+  browserSync.init({
+    server: {
+      baseDir: "./docs/"
+    }
+  });
 
   gulp.watch("./templates/**", gulp.series("pug"));
   gulp.watch("./style/**", gulp.series("copy-style-folder"));
