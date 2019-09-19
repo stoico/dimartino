@@ -1,76 +1,75 @@
-.main-container.just-blue-gradient
-    if page.title === 'Portfolio'
-        include ../particles/toggle-switch.pug
-    .content-container
-        .content-title Portfolio
-        .project-body
-            .project-category.first-category
-                | User Experience Design
-            .project-category.second-category
-                | Software Development
-            .project-container.first-category-bg
-                a(href='project-1.html')
-                    .project-poster
-                        img(srcset="./style/images/learning@2x.png 2x, ./style/images/learning.png 1x"
-                            src="./style/images/learning.png"
-                            alt="Casual Learning Research")
-                    .project-title
-                        | The UX of Casual Online Learning
-                    .project-description(style="text-align: center;")
-                        | Understanding how young people learn online for pleasure 
-                        | (User research, User interviewing, Insight generation, Needs definition).
-            .project-container.second-category-bg
-                a(href='project-2.html')                
-                    .project-poster
-                        img(srcset="./style/images/sidebyside@2x.png 2x, ./style/images/sidebyside.png 1x"
-                            src="./style/images/sidebyside.png"
-                            alt="Cross-platform native app")
-                    .ring-container
-                        .ringring
-                        .circle
-                    .project-title
-                        | Publishing my first iOS and Android app
-                    .project-description(style="text-align: center;")
-                        | I embarked on a mobile development journey to learn everything 
-                        | I needed to develop and publish my first mobile app (React Native).
-            .project-container.first-category-bg
-                a(href='project-3.html')
-                    .project-poster
-                        img(srcset="./style/images/cup@2x.png 2x, ./style/images/cup.png 1x"
-                            src="./style/images/cup.png"
-                            alt="Design Research")
-                    .project-title
-                        | User Research for improvements in paper cup recycling
-                    .project-description(style="text-align: center;")
-                        | Investigating the behavioural pattern of students 
-                        | who use paper cups. From purchase to disposal.
-            .project-container.second-category-bg
-                a(href='project-4.html')
-                    .project-poster
-                        img(srcset="./style/images/startup-map-preview@2x.png 2x, ./style/images/startup-map-preview.png 1x"
-                            src="./style/images/startup-map-preview.png"
-                            alt="Cross-platform native app")
-                    .project-title Startup Map - Web application in Knockout.js
-                    .project-description(style="text-align: center;")
-                        | A single-page Knockout.js application that integrates the Google Maps API
-                        | and the Lever API to display a map of startups.
-            .project-container.first-category-bg
-                div(style="display: flex; justify-content: center; align-items: center; height: 100%;")
-                    .project-description(style="text-align: center; flex: 1;")
-                        | Coming soon
-                //- a(href='project-5.html')
-                    .project-poster
-                    .project-title
-                        //- | Holland & Barrett - Voice User Interface
-                    
-            .project-container.second-category-bg
-                a(href='project-6.html')
-                    .project-poster
-                        img(srcset="./style/images/full-stack@2x.png 2x, ./style/images/full-stack.png 1x"
-                            src="./style/images/full-stack.png"
-                            alt="Cross-platform native app")
-                    .project-title
-                        | Full-stack Python web app - Flask and SQLite
-                    .project-description(style="text-align: center;")
-                        | Developing and deploying a Flask web app with an SQL database 
-                        | and Google APIs for authentication and authorization
+//- if page.title === 'Portfolio'
+//-     include ../particles/toggle-switch.pug
+.content-container
+    .content-title Portfolio
+    .project-body
+        .project-category.first-category
+            | User Experience Design
+        .project-category.second-category
+            | Software Development
+        .project-container.first-category-bg
+            a(href='project-1.html')
+                .project-poster
+                    img(srcset="./style/images/learning@2x.png 2x, ./style/images/learning.png 1x"
+                        src="./style/images/learning.png"
+                        alt="Casual Learning Research")
+                .project-title
+                    | The UX of Casual Online Learning
+                .project-description(style="text-align: center;")
+                    | Understanding how young people learn online for pleasure 
+                    | (User research, User interviewing, Insight generation, Needs definition).
+        .project-container.second-category-bg
+            a(href='project-2.html')                
+                .project-poster
+                    img(srcset="./style/images/sidebyside@2x.png 2x, ./style/images/sidebyside.png 1x"
+                        src="./style/images/sidebyside.png"
+                        alt="Cross-platform native app")
+                .ring-container
+                    .ringring
+                    .circle
+                .project-title
+                    | Publishing my first iOS and Android app
+                .project-description(style="text-align: center;")
+                    | I embarked on a mobile development journey to learn everything 
+                    | I needed to develop and publish my first mobile app (React Native).
+        .project-container.first-category-bg
+            a(href='project-3.html')
+                .project-poster
+                    img(srcset="./style/images/cup@2x.png 2x, ./style/images/cup.png 1x"
+                        src="./style/images/cup.png"
+                        alt="Design Research")
+                .project-title
+                    | User Research for improvements in paper cup recycling
+                .project-description(style="text-align: center;")
+                    | Investigating the behavioural pattern of students 
+                    | who use paper cups. From purchase to disposal.
+        .project-container.second-category-bg
+            a(href='project-4.html')
+                .project-poster
+                    img(srcset="./style/images/startup-map-preview@2x.png 2x, ./style/images/startup-map-preview.png 1x"
+                        src="./style/images/startup-map-preview.png"
+                        alt="Cross-platform native app")
+                .project-title Startup Map - Web application in Knockout.js
+                .project-description(style="text-align: center;")
+                    | A single-page Knockout.js application that integrates the Google Maps API
+                    | and the Lever API to display a map of startups.
+        .project-container.first-category-bg
+            div(style="display: flex; justify-content: center; align-items: center; height: 100%;")
+                .project-description(style="text-align: center; flex: 1;")
+                    | Coming soon
+            //- a(href='project-5.html')
+                .project-poster
+                .project-title
+                    //- | Holland & Barrett - Voice User Interface
+                
+        .project-container.second-category-bg
+            a(href='project-6.html')
+                .project-poster
+                    img(srcset="./style/images/full-stack@2x.png 2x, ./style/images/full-stack.png 1x"
+                        src="./style/images/full-stack.png"
+                        alt="Cross-platform native app")
+                .project-title
+                    | Full-stack Python web app - Flask and SQLite
+                .project-description(style="text-align: center;")
+                    | Developing and deploying a Flask web app with an SQL database 
+                    | and Google APIs for authentication and authorization
