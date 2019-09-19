@@ -56,9 +56,16 @@ strong {
 }
 
 header {
-  height: 86px;
+  height: 66px;
   width: 100%;
-  max-width: 960px;
+  background: #1F1F1F;
+  border-bottom: 1px solid #424242;
+}
+
+.menu {
+  width: 960px;
+  height: 100%;
+  margin: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -66,9 +73,9 @@ header {
 }
 
 .logo {
-  width: 115px;
-  height: 18px;
-  background-image: url("./images/logo@1x.png");
+  width: 154px;
+  height: 42px;
+  background-image: url("./images/logo-avatar.png");
 }
 
 .navigation-bar {
@@ -82,6 +89,7 @@ header {
 
 .navigation-bar a {
   text-decoration: none;
+  height: 100%;
 }
 
 .navigation-bar-item {
@@ -89,9 +97,8 @@ header {
   text-align: center;
   font-family: "esemibold", Arial, Helvetica, sans-serif;
   align-items: center;
-  border-radius: 20px;
   width: 128px;
-  height: 42px;
+  height: 100%;
   /* Center text vertically */
   line-height: 38px;
   vertical-align: middle;
@@ -103,16 +110,6 @@ header {
   cursor: pointer;
 }
 
-.navigation-bar-item:after {
-  position: absolute;
-  content: "";
-  margin-top: 10px;
-  margin-left: -5px;
-  background: rgba(255, 255, 255, 0.1);
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-}
 
 .navigation-bar a:hover:nth-child(1) .navigation-bar-item:after {
   background: #ff305a;
@@ -834,10 +831,10 @@ Highlighting
   only screen and (min--moz-device-pixel-ratio: 1.5),
   only screen and (min-device-pixel-ratio: 1.5) {
   .logo {
-    width: 115px;
-    height: 18px;
-    background: url("./images/logo@2x.png") no-repeat center;
-    background-size: 115px 18px;
+    width: 154px;
+    height: 42px;
+    background: url("./images/logo-avatar@2x.png") no-repeat center;
+    background-size: 154px 42px;
   }
 
   blockquote:before {
