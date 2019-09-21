@@ -247,6 +247,15 @@ header {
   justify-self: center;
 }
 
+.index-title {
+  width: 90%;
+}
+
+.highlighted-text {
+  color: #89ED81;
+}
+
+
 .content-body {
   background: #fff;
   margin: 0 32px 64px;
