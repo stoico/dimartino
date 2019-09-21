@@ -60,6 +60,13 @@ header {
   width: 100%;
   background: #1F1F1F;
   border-bottom: 1px solid #424242;
+  position: fixed;
+  margin-bottom: 66px;
+  /* border-left: 1px solid #424242;
+  border-right: 1px solid #424242;
+  border-bottom-right-radius: 2em;
+  border-bottom-left-radius: 2em; */
+
 }
 
 .menu {
