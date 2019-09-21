@@ -554,6 +554,41 @@ ul {
   cursor: pointer;
 }
 
+.ghost-button {
+  /* Messes with z-index and shows up above header */
+  /* position: relative; */
+  display: inline-block;
+  color: #fff;
+  border-radius: 40px;
+  min-width: 50px;
+  min-height: 20px;
+  padding: 10px 20px ;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 16px;
+  background-clip: padding-box;
+}
+
+.ghost-button:hover {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.green-styled {
+  background: #89ED81 !important;
+  color: #202020;
+  font-family: "esemibold";
+}
+
+.green-styled:hover {
+  border: 1px solid #202020 !important;
+}
+
+.arrow-spacing {
+  margin: 0 0 0 16px;
+}
+
 .button-border {
   display: inline-block;
   border-radius: 40px;
