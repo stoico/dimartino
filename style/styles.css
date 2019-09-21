@@ -51,8 +51,8 @@ strong {
   min-height: 800px;
   background-color: #202020;
   padding-bottom: 70px;
-  border-bottom-right-radius: 100px;
-  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 2em;
+  border-bottom-left-radius: 2em;
 }
 
 header {
