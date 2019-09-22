@@ -367,23 +367,29 @@ header {
 /* Single colum projects overview */
 
 .single-column-project-container {
-  margin-top: 12px;
   width: 100%;
   min-height: 100px;
   border-radius: 20px;
-  transition: transform 0.1s;
-  background: linear-gradient(75deg, #0094ff 0%, #007bff 100%);
 }
 
-.single-column-project-container:hover {
-  transform: scale(1.02);
+.project-box {
+  border: 1px solid transparent;
 }
+.project-box:hover {
+  /* border: 1px solid rgba(255, 255, 255, 0.2); */
+}
+
+.project-box:hover .project-title{
+  color: #89ED81;
+}
+
 
 .single-column-project-container a {
   text-decoration: none;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .single-column-project-container .project-poster {
