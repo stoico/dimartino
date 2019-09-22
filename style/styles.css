@@ -247,6 +247,10 @@ header {
   justify-self: center;
 }
 
+.title-page {
+  margin: 20px 0 !important;
+}
+
 .index-title {
   width: 90%;
 }
