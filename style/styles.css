@@ -421,6 +421,14 @@ header {
   line-height: 1.5;
 }
 
+.single-column-project-container .project-button {
+  flex: 0.12;
+}
+
+.single-column-project-container:hover .project-button .ghost-button {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
 .content-heading {
   display: inline-block;
   margin: 20px auto 0px;
