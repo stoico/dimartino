@@ -147,95 +147,27 @@ header {
 .active-item-fuchsia:after {
   background: #ff305a;
 }
-.active-item-acquamarine,
-.active-item-acquamarine:after {
-  background: #0080ff;
-}
-.active-item-orange,
-.active-item-orange:after {
-  background: #ef6853;
-}
-.active-item-redorange,
-.active-item-redorange:after {
-  background: #ff3855;
-}
-.active-item-red,
-.active-item-red:after {
-  background: #d62424;
-}
-.active-item-purple,
-.active-item-purple:after {
-  background: #df5deb;
-}
 
-.main-container {
-  width: 90%;
-  max-width: 1480px;
-  min-width: 1024px;
-  min-height: 400px;
-  padding: 64px;
-  border-radius: 50px;
-  margin-bottom: 36px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.shorter-container {
-  min-height: 200px !important;
-}
-
-.blue-gradient {
-  background: linear-gradient(75deg, #007bff 8%, #29eab1 100%);
-}
-
-.just-blue-gradient {
-  background: linear-gradient(75deg, #0094ff 0%, #007bff 100%);
-}
-
-.pink-gradient {
-  background-image: linear-gradient(-104deg, #fb19bd 0%, #ea8729 92%);
-}
-
-.green-gradient {
-  background-image: linear-gradient(120deg, #d4fc79 0%, #43e97b 100%);
-}
-
-.orange-gradient {
-  background-image: linear-gradient(120deg, #febe49 0%, #ea8729 92%);
-}
-
-.fire-gradient {
-  background-image: linear-gradient(131deg, #fe5d49 0%, #ea8729 92%);
-}
-
-.purple-gradient {
-  background-image: linear-gradient(-104deg, #fb19bd 0%, #b229ea 92%);
-}
-
-.rosy-gradient {
-  background-image: linear-gradient(-104deg, #fb19bd 0%, #ff8296 100%);
-}
-
-.red-gradient {
-  background-image: linear-gradient(131deg, #fe5d49 0%, #ea2979 92%);
-}
-
-.article-width {
-  width: 84%;
-  margin: auto;
-}
-
-.content-container {
+.content-box {
   flex: 1;
   max-width: 960px;
-  min-height: 300px;
-  background: #fff;
-  box-shadow: 0 4px 45px -16px #0062ff54;
-  border-radius: 41px;
+  background: rgba(234,234,234,0.05);
+  border-radius: 0.65em;
   display: flex;
   flex-direction: column;
+  margin-top: 10px
+}
+
+.taller {
+  min-height: 300px;
+}
+
+.align-center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .content-title {
