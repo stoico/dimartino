@@ -399,6 +399,14 @@ header {
   display: flex;
 }
 
+.clip-polygon {
+  clip-path: polygon(0% 0%, 100% 0%, 80% 100%, 0% 100%);
+}
+
+.clip-polygon-inverse {
+  clip-path: polygon(0% 0%, 80% 00%, 100% 100%, 0% 100%);
+}
+
 .single-column-project-container .project-info {
   flex: 0.78;
   display: flex;
