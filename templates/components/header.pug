@@ -6,12 +6,15 @@ header
         .navigation-bar
             //- Add conditional class to show active navigation item 
             a(href='index.html')
-                .navigation-bar-item(class=(page.title === 'Home' ? 'active-item-fuchsia' : ''))
-                    div Home
-            a(href='portfolio.html')
-                .navigation-bar-item(class=(page.title === ('Portfolio' || 'Project Name') ? 'active-item-acquamarine' : ''))
-                    div Portfolio
+                .navigation-bar-item(class=(page.title === 'Home' ? 'active-item' : ''))
+                    p Home
+            a(href='projects.html')
+                .navigation-bar-item(class=(page.title === ('Projects' || 'Project Name') ? 'active-item' : ''))
+                    p Projects
+            a(href='method.html')
+                .navigation-bar-item(class=(page.title === 'Methodology' ? 'active-item' : ''))
+                    p My 'How'
             a(href='aboutme.html')
-                .navigation-bar-item(class=(page.title === 'About me' ? 'active-item-redorange' : ''))
-                    div About me
-            include ../particles/email-nav-item.pug
+                .navigation-bar-item(class=(page.title === 'About me' ? 'active-item' : ''))
+                    p About me
+            //- include ../particles/email-nav-item.pug
