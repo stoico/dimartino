@@ -199,6 +199,9 @@ header {
 .single-column {
   flex: 1;
   padding: 34px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .single-column>img {
