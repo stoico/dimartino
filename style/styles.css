@@ -167,6 +167,17 @@ header {
   justify-self: center;
 }
 
+.content-subtitle {
+  color: #fff;
+  font-family: "eregular", Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  padding: 12px 0 32px;
+  margin-top: -32px;
+  text-align: center;
+  justify-self: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .title-page {
   margin: 20px 0 !important;
 }
