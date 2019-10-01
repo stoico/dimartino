@@ -418,14 +418,12 @@ header {
 .project-poster {
   width: 100%;
   height: auto;
-  border-radius: 20px;
   overflow: hidden;
 }
 
 .project-poster img {
   width: 100%;
   height: auto;
-  border-radius: 20px;
   display: flex;
 }
 
@@ -494,14 +492,12 @@ header {
 .single-column-project-container .project-poster {
   flex: 0.2;
   height: auto;
-  border-radius: 20px;
   overflow: hidden;
 }
 
 .single-column-project-container .project-poster img {
   width: 100%;
   height: auto;
-  border-radius: 20px;
   display: flex;
   background: #89ED81;
 }
