@@ -1,45 +1,28 @@
 .content
     .content-title.title-page My 
         span.highlighted-text projects 
-    .content-box.project-box
-        .single-column-project-container
-            a(href='project-1.html')
-                .project-poster.clip-polygon-inverse
-                    img(srcset="./style/images/ux-placeholder.png 2x, ./style/images/ux-placeholder.png 1x"
-                        src="./style/images/ux-placeholder.png"
-                        alt="Casual Learning Research")
-                .project-info
-                    .project-title
-                        | The UX of Casual Online Learning
-                    .project-description
-                        | Understanding how young people learn online for pleasure 
-                        | (User research, User interviewing, Insight generation, Needs definition).
-                .project-button
-                    .ghost-button(style="padding: 20px 21px !important;") →
+    //- .content-box.project-box
+    //-     .single-column-project-container
+    //-         a(href='project-1.html')
+    //-             .project-poster.clip-polygon-inverse
+    //-                 img(srcset="./style/images/ux-placeholder.png 2x, ./style/images/ux-placeholder.png 1x"
+    //-                     src="./style/images/ux-placeholder.png"
+    //-                     alt="Casual Learning Research")
+    //-             .project-info
+    //-                 .project-title
+    //-                     | The UX of Casual Online Learning
+    //-                 .project-description
+    //-                     | Understanding how young people learn online for pleasure 
+    //-                     | (User research, User interviewing, Insight generation, Needs definition).
+    //-             .project-button
+    //-                 .ghost-button(style="padding: 20px 21px !important;") →
     .content-box.project-box   
         .single-column-project-container
-            a(href='https://github.com/stoico/react-native-app' target="_blank")            
-                .project-poster.clip-polygon
-                    img(srcset="./style/images/sidebyside@2x.png 2x, ./style/images/sidebyside.png 1x"
-                        src="./style/images/sidebyside.png"
-                        alt="Cross-platform native app")
-                .ring-container
-                    .ringring
-                    .circle
-                .project-info
-                    .project-title
-                        | Publishing my first iOS and Android app
-                    .project-description
-                        | I embarked on a mobile development journey to learn everything 
-                        | I needed to develop and publish my first mobile app (React Native).
-                .project-button
-                    .ghost-button(style="padding: 20px 21px !important;") →
-    .content-box.project-box   
-        .single-column-project-container
-            a(href='https://github.com/stoico/startup-map' target="_blank")
+            //- a(href='https://github.com/stoico/startup-map' target="_blank")
+            a(href='startup-map.html')
                 .project-poster.clip-polygon-inverse
-                    img(srcset="./style/images/startup-map-preview@2x.png 2x, ./style/images/startup-map-preview.png 1x"
-                        src="./style/images/startup-map-preview.png"
+                    img(srcset="./style/images/thumb@2x.png 2x, ./style/images/thumb.png 1x"
+                        src="./style/images/thumb.png"
                         alt="Cross-platform native app")
                 .project-info
                     .project-title Startup Map - Web application in Knockout.js
@@ -50,17 +33,40 @@
                     .ghost-button(style="padding: 20px 21px !important;") →
     .content-box.project-box    
         .single-column-project-container
-            a(href='https://github.com/stoico/python-flask-catalog' target="_blank")
+            //- a(href='https://github.com/stoico/python-flask-catalog' target="_blank")
+            a(href='flask-app.html')
                 .project-poster.clip-polygon
-                    img(srcset="./style/images/full-stack@2x.png 2x, ./style/images/full-stack.png 1x"
-                        src="./style/images/full-stack.png"
+                    img(srcset="./style/images/fullstack-thumb@2x.png 2x, ./style/images/fullstack-thumb.png 1x"
+                        src="./style/images/fullstack-thumb.png"
                         alt="Cross-platform native app")
                 .project-info
                     .project-title
                         | Full-stack Python web app - Flask and SQLite
                     .project-description
-                        | Developing and deploying a Flask web app with an SQL database 
-                        | and Google APIs for authentication and authorization
+                        | Flask web app with an SQL database 
+                        | and Google APIs for authentication and authorization.
+                        | Deployed on an Apache server with mod_wsgi.
+                .project-button
+                    .ghost-button(style="padding: 20px 21px !important;") →
+    .content-box.project-box   
+        .single-column-project-container
+            //- a(href='https://github.com/stoico/react-native-app' target="_blank")
+            a(href='react-native-app.html')
+                .project-poster.clip-polygon-inverse
+                    img(srcset="./style/images/thumb-seriesly@2x.png 2x, ./style/images/thumb-seriesly.png 1x"
+                        src="./style/images/thumb-seriesly.png"
+                        alt="Cross-platform native app")
+                .ring-container
+                    .ringring
+                    .circle
+                .project-info
+                    .project-title
+                        //- | Recommendation platform on TV series among friends (React Native)
+                        | Recommendation platform - React Native and Firebase, for iOS and Android
+                        //- | TV series recommendation platform from friends in React Native
+                    .project-description
+                        | Share and receive recommendations on what to watch next 
+                        | from people you know. Tech stack: JavaScript, React, Firebase suite
                 .project-button
                     .ghost-button(style="padding: 20px 21px !important;") →
         //- .single-column-project-container
@@ -72,3 +78,18 @@
                     .project-poster
                     .project-title
                         //- | Holland & Barrett - Voice User Interface
+    .content-title.title-page(style="margin-top: 4vw !important") Currently working on
+    .content-box.project-box
+        .single-column-project-container
+            a(href='gallery-test.html')
+                .project-poster.clip-polygon
+                    img(srcset="./style/images/upliftey-thumb@2x.png 2x, ./style/images/upliftey-thumb.png 1x"
+                        src="./style/images/upliftey-thumb.png"
+                        alt="Casual Learning Research")
+                .project-info
+                    .project-title
+                        | Upliftey.com
+                    .project-description
+                        | Guided self-reflection web app to build lasting self-esteem. Built with Vue and Nuxt.js.
+                .project-button
+                    .ghost-button(style="padding: 20px 21px !important;") →
