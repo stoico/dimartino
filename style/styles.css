@@ -192,21 +192,26 @@ header {
 
 /* Grid layout */
 
+/* TO DO Replace with flexbox */
+
 .grid-parent {
   display: grid;
   grid-template-columns: 0 1fr 0 1fr 0;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: auto auto auto;
   grid-column-gap: 0;
-  grid-row-gap: 10px;
+  grid-row-gap: 20px;
 }
 
 .div1 {
   grid-area: 1 / 1 / 2 / 3;
   margin-right: 10px;
+  max-height: 330px;
 }
 
 .div2 {
   grid-area: 1 / 3 / 2 / 5;
+  margin-left: 10px;
+  max-height: 330px;
 }
 
 .wide {
@@ -216,10 +221,13 @@ header {
 .div4 {
   grid-area: 3 / 1 / 4 / 3;
   margin-right: 10px;
+  max-height: 330px;
 }
 
 .div5 {
   grid-area: 3 / 3 / 4 / 5;
+  margin-left: 10px;
+  max-height: 330px;
 }
 
 .tile-style {
@@ -228,6 +236,7 @@ header {
   background: rgba(234, 234, 234, 0.05);
   border-radius: 0.65em;
   overflow: hidden;
+  display: inherit;
 }
 
 /* End grid layout */
