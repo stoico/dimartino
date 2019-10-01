@@ -165,6 +165,7 @@ header {
   padding: 12px 32px 12px;
   text-align: center;
   justify-self: center;
+  max-width: 960px;
 }
 
 .content-subtitle {
@@ -176,6 +177,7 @@ header {
   text-align: center;
   justify-self: center;
   color: rgba(255, 255, 255, 0.5);
+  max-width: 960px;
 }
 
 .title-page {
