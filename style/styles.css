@@ -1069,8 +1069,7 @@ Responsive
 
   header {
     height: 68px;
-    width: 90%;
-    padding: 20px 0;
+    padding: 20px 10px;
   }
 
   .main-container {
@@ -1110,16 +1109,26 @@ Responsive
     border-radius: 3vw;
   }
 
+  .content-box {
+    margin: auto;
+    width: 96%;
+    margin-bottom: 6px;
+  }
+
   .single-column-project-container .project-title {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .single-column-project-container .project-description {
     display: none;
   }
 
+  .single-column-project-container .project-poster img,
+  .single-column-project-container .project-poster {
+    border-radius: 0;
+  }
+
   .content-title {
-    color: #3c3c3c;
     font-size: 6.5vw;
     padding: 6vw 0 3vw;
   }
@@ -1147,6 +1156,15 @@ Responsive
     line-height: 5.5vw;     */
     font-size: calc(0.5vw + 14px);
     line-height: calc(2.5vw + 16px);
+  }
+
+  .project-box .ghost-button {
+    margin-right: 6px;
+  }
+
+  .project-poster,
+  .project-poster img {
+    border-radius: 0;
   }
 
   .project-category {
