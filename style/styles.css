@@ -713,6 +713,13 @@ cite {
   border: 1px solid #202020 !important;
 }
 
+.inactive-button,
+.inactive-button:hover {
+  color: grey;
+  border: 1px solid transparent;
+  cursor: default;
+}
+
 .arrow-spacing {
   margin: 0 0 0 16px;
 }
