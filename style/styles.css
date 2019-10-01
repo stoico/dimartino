@@ -453,7 +453,6 @@ header {
 .project-description {
   color: white;
   padding: 0 20px;
-  margin: 0 auto;
   padding-bottom: 24px;
   font-size: 18px;
   line-height: 22px;
@@ -527,7 +526,6 @@ header {
 .single-column-project-container .project-description {
   color: rgba(255, 255, 255, 0.75);
   padding: 0 40px 0 30px;
-  margin: 0 auto;
   font-size: 18px;
   line-height: 1.5;
 }
