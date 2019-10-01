@@ -192,8 +192,6 @@ header {
 
 /* Grid layout */
 
-/* TO DO Replace with flexbox */
-
 .grid-parent {
   display: grid;
   grid-template-columns: 0 1fr 0 1fr 0;
