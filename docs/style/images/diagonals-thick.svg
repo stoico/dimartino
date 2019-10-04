@@ -1,13 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="353px" height="353px" viewBox="0 0 353 353" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>diagonals copy</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="diagonals-copy" transform="translate(1.000000, 1.000000)" stroke="#3C3C3C" stroke-width="2">
-            <path d="M0.5,0.5 L350.501429,350.501429" id="Line-4"></path>
-            <path d="M0.5,0.5 L350.501429,350.501429" id="Line-4-Copy" transform="translate(175.500000, 175.500000) scale(-1, 1) translate(-175.500000, -175.500000) "></path>
-        </g>
-    </g>
-</svg>
+<svg width="353" height="353" xmlns="http://www.w3.org/2000/svg"><path d="M1.5 1.5l350.001 350.001M351.5 1.5L1.499 351.501" stroke="#3C3C3C" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>

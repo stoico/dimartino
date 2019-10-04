@@ -37,6 +37,11 @@
           }
       }
     </script>
+    <script>
+      const userNav = 'cardimart';
+      const domainNav = 'gmail.com';
+      const emailAddressNav = 'mailto:' + userNav + "@" + domainNav;
+    </script>
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137496467-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -47,136 +52,154 @@
   </head>
   <body>
     <div class="page">
-      <header><a href="index.html">
-          <div class="logo"></div></a>
-        <div class="navigation-bar"><a href="index.html">
-            <div class="navigation-bar-item active-item-fuchsia">
-              <div>Home</div>
-            </div></a><a href="portfolio.html">
-            <div class="navigation-bar-item">
-              <div>Portfolio</div>
-            </div></a><a id="email-link">
-            <div class="navigation-bar-item" style="width: 80px;">
-              <div style="display: flex; align-items: center; justify-content: center; padding-top: 4px; height: 38px;"><img src="./style/images/envelope.svg" alt="Contact me" style="width: 20px;"></div>
-            </div></a>
-          <script>
-            const userNav = 'cardimart';
-            const domainNav = 'gmail.com';
-            const emailAddressNav = 'mailto:' + userNav + "@" + domainNav;
-            document.getElementById('email-link').setAttribute('href', emailAddressNav);
-          </script>
+      <header>
+        <div class="menu"><a href="index.html">
+            <div class="logo"></div></a>
+          <div class="navigation-bar"><a href="index.html">
+              <div class="navigation-bar-item active-item">
+                <p>Home</p>
+              </div></a><a href="projects.html">
+              <div class="navigation-bar-item">
+                <p>Projects</p>
+              </div></a><a href="method.html">
+              <div class="navigation-bar-item">
+                <p>My 'How'</p>
+              </div></a><a href="aboutme.html">
+              <div class="navigation-bar-item">
+                <p>About me</p>
+              </div></a></div>
         </div>
       </header>
-      <div class="main-container shorter-container red-gradient">
-        <label class="toggle-switch">High-fidelity
-          <input type="checkbox" onclick="switchToWireframe()"><i></i>Wireframe
-        </label>
-        <div class="content-container">
-          <article class="article-width">
-            <div style="display:flex; flex-direction: row; align-items: center; height: auto;">
-              <div style="flex: 0.7; padding-right: 10px; display: flex; flex-direction: column; justify-content: center;">
-                <h3 class="content-subheading">I'm Carmine, a UX and Product Designer</h3>
-                <div class="content-paragraph" style="padding-bottom: 0;">
-                  with a background in Software and Business. I enjoy dissecting 
-                  the big picture and have a strong interest in product strategy. 
-                  I tend to challenge conventional wisdom and explore opposing ideas.
-                </div>
-              </div>
-              <div style="flex: 0.3;">
-                <div class="right-image"><img src="./style/images/profile.png" alt="Profile"></div>
+      <div class="content-box">
+        <article class="article-width">
+          <div style="display:flex; flex-direction: row; align-items: center; height: auto;">
+            <div style="flex: 0.7; padding-right: 10px; display: flex; flex-direction: column; justify-content: center;">
+              <h3 class="content-subheading">I'm Carmine, a UX and Product Designer</h3>
+              <div class="content-paragraph" style="padding-bottom: 0;">
+                with a background in Software and Business. I enjoy dissecting 
+                the big picture and have a strong interest in product strategy. 
+                I tend to challenge conventional wisdom and explore opposing ideas.
               </div>
             </div>
-          </article>
-        </div>
+            <div style="flex: 0.3;">
+              <div class="right-image"><img src="./style/images/profile.png" alt="Profile"></div>
+            </div>
+          </div>
+        </article>
       </div>
-      <div class="main-container just-blue-gradient">
-        <div class="content-container">
-          <div class="content-title">Projects</div>
-          <div class="project-body">
-            <div class="single-column-project-container"><a href="project-1.html">
-                <div class="project-poster"><img srcset="./style/images/ux-placeholder.png 2x, ./style/images/ux-placeholder.png 1x" src="./style/images/ux-placeholder.png" alt="Casual Learning Research"></div>
-                <div class="project-info">
-                  <div class="project-title">The UX of Casual Online Learning</div>
-                  <div class="project-description">
-                    Understanding how young people learn online for pleasure 
-                    (User research, User interviewing, Insight generation, Needs definition).
-                  </div>
-                </div></a></div>
-            <div class="single-column-project-container"><a href="https://github.com/stoico/react-native-app" target="_blank">           
-                <div class="project-poster"><img srcset="./style/images/sidebyside@2x.png 2x, ./style/images/sidebyside.png 1x" src="./style/images/sidebyside.png" alt="Cross-platform native app"></div>
-                <div class="ring-container">
-                  <div class="ringring"></div>
-                  <div class="circle"></div>
+      <div class="content">
+        <div class="content-title title-page">My <span class="highlighted-text">projects </span></div>
+        <div class="content-box project-box">  
+          <div class="single-column-project-container"><a href="startup-map.html">
+              <div class="project-poster clip-polygon-inverse"><img srcset="./style/images/thumb@2x.png 2x, ./style/images/thumb.png 1x" src="./style/images/thumb.png" alt="Cross-platform native app"></div>
+              <div class="project-info">
+                <div class="project-title">Startup Map - Web application in Knockout.js</div>
+                <div class="project-description">
+                  A single-page Knockout.js application that integrates the Google Maps API
+                  and the Lever API to display a map of startups.
                 </div>
-                <div class="project-info">
-                  <div class="project-title">Publishing my first iOS and Android app</div>
-                  <div class="project-description">
-                    I embarked on a mobile development journey to learn everything 
-                    I needed to develop and publish my first mobile app (React Native).
-                  </div>
-                </div></a></div>
-            <div class="single-column-project-container"><a href="https://github.com/stoico/startup-map" target="_blank">
-                <div class="project-poster"><img srcset="./style/images/startup-map-preview@2x.png 2x, ./style/images/startup-map-preview.png 1x" src="./style/images/startup-map-preview.png" alt="Cross-platform native app"></div>
-                <div class="project-info">
-                  <div class="project-title">Startup Map - Web application in Knockout.js</div>
-                  <div class="project-description">
-                    A single-page Knockout.js application that integrates the Google Maps API
-                    and the Lever API to display a map of startups.
-                  </div>
-                </div></a></div>
-            <div class="single-column-project-container"><a href="https://github.com/stoico/python-flask-catalog" target="_blank">
-                <div class="project-poster"><img srcset="./style/images/full-stack@2x.png 2x, ./style/images/full-stack.png 1x" src="./style/images/full-stack.png" alt="Cross-platform native app"></div>
-                <div class="project-info">
-                  <div class="project-title">Full-stack Python web app - Flask and SQLite</div>
-                  <div class="project-description">
-                    Developing and deploying a Flask web app with an SQL database 
-                    and Google APIs for authentication and authorization
-                  </div>
-                </div></a></div>
-          </div>
+              </div>
+              <div class="project-button">
+                <div class="ghost-button" style="padding: 20px 21px !important;">→</div>
+              </div></a></div>
+        </div>
+        <div class="content-box project-box">   
+          <div class="single-column-project-container"><a href="flask-app.html">
+              <div class="project-poster clip-polygon"><img srcset="./style/images/fullstack-thumb@2x.png 2x, ./style/images/fullstack-thumb.png 1x" src="./style/images/fullstack-thumb.png" alt="Cross-platform native app"></div>
+              <div class="project-info">
+                <div class="project-title">Full-stack Python web app - Flask and SQLite</div>
+                <div class="project-description">
+                  Flask web app with an SQL database 
+                  and Google APIs for authentication and authorization.
+                  Deployed on an Apache server with mod_wsgi.
+                </div>
+              </div>
+              <div class="project-button">
+                <div class="ghost-button" style="padding: 20px 21px !important;">→</div>
+              </div></a></div>
+        </div>
+        <div class="content-box project-box">  
+          <div class="single-column-project-container"><a href="react-native-app.html">
+              <div class="project-poster clip-polygon-inverse"><img srcset="./style/images/thumb-seriesly@2x.png 2x, ./style/images/thumb-seriesly.png 1x" src="./style/images/thumb-seriesly.png" alt="Cross-platform native app"></div>
+              <div class="ring-container">
+                <div class="ringring"></div>
+                <div class="circle"></div>
+              </div>
+              <div class="project-info">
+                <div class="project-title">Recommendation platform - React Native and Firebase, for iOS and Android</div>
+                <div class="project-description">
+                  Share and receive recommendations on what to watch next 
+                  from people you know. Tech stack: JavaScript, React, Firebase suite
+                </div>
+              </div>
+              <div class="project-button">
+                <div class="ghost-button" style="padding: 20px 21px !important;">→</div>
+              </div></a></div>
+        </div>
+        <div class="content-title title-page" style="margin-top: 4vw !important">Currently working on</div>
+        <div class="content-box project-box">
+          <div class="single-column-project-container"><a href="upliftey.html">
+              <div class="project-poster clip-polygon"><img srcset="./style/images/upliftey-thumb@2x.png 2x, ./style/images/upliftey-thumb.png 1x" src="./style/images/upliftey-thumb.png" alt="Casual Learning Research"></div>
+              <div class="project-info">
+                <div class="project-title">Upliftey.com</div>
+                <div class="project-description">Guided self-reflection web app to build lasting self-esteem. Built with Vue and Nuxt.js.</div>
+              </div>
+              <div class="project-button">
+                <div class="ghost-button" style="padding: 20px 21px !important;">→</div>
+              </div></a></div>
         </div>
       </div>
-      <div class="main-container shorter-container green-gradient">
-        <div class="content-container">
-          <div class="content-title">UI work at a glance</div>
-          <div class="project-body">
-            <div class="ui-thumbnail"><img srcset="./style/images/feed-product-strategy@2x.png 2x,./style/images/feed-product-strategy.png 1x  " src="./style/images/feed-product-strategy.png" alt="To be defined"></div>
-            <div class="ui-thumbnail"><img srcset="./style/images/splash-screen@2x.png 2x,./style/images/splash-screen.png 1x" src="./style/images/splash-screen.png" alt="To be defined"></div>
-            <div class="ui-thumbnail"><img srcset="./style/images/one-thing@2x.png 2x,./style/images/one-thing.png 1x" src="./style/images/one-thing.png" alt="To be defined"></div>
-            <div class="ui-thumbnail"><img srcset="./style/images/ux-folio@2x.png 2x,./style/images/ux-folio.png 1x" src="./style/images/ux-folio.png" alt="To be defined"></div>
-            <div class="ui-thumbnail"><img srcset="./style/images/feed-screen@2x.png 2x,./style/images/feed-screen.png 1x" src="./style/images/feed-screen.png" alt="To be defined"></div>
-            <div class="ui-thumbnail"><img srcset="./style/images/knowledge-product-strategy@2x.png 2x,./style/images/knowledge-product-strategy.png 1x" src="./style/images/knowledge-product-strategy.png" alt="To be defined"></div>
-          </div>
+      <div class="content-box">
+        <div class="content-title title-page">UI work at a glance</div>
+        <div class="project-body">
+          <div class="ui-thumbnail"><img srcset="./style/images/feed-product-strategy@2x.png 2x,./style/images/feed-product-strategy.png 1x  " src="./style/images/feed-product-strategy.png" alt="To be defined"></div>
+          <div class="ui-thumbnail"><img srcset="./style/images/splash-screen@2x.png 2x,./style/images/splash-screen.png 1x" src="./style/images/splash-screen.png" alt="To be defined"></div>
+          <div class="ui-thumbnail"><img srcset="./style/images/one-thing@2x.png 2x,./style/images/one-thing.png 1x" src="./style/images/one-thing.png" alt="To be defined"></div>
+          <div class="ui-thumbnail"><img srcset="./style/images/ux-folio@2x.png 2x,./style/images/ux-folio.png 1x" src="./style/images/ux-folio.png" alt="To be defined"></div>
+          <div class="ui-thumbnail"><img srcset="./style/images/feed-screen@2x.png 2x,./style/images/feed-screen.png 1x" src="./style/images/feed-screen.png" alt="To be defined"></div>
+          <div class="ui-thumbnail"><img srcset="./style/images/knowledge-product-strategy@2x.png 2x,./style/images/knowledge-product-strategy.png 1x" src="./style/images/knowledge-product-strategy.png" alt="To be defined"></div>
         </div>
       </div>
-      <div class="main-container shorter-container rosy-gradient">
-        <div class="content-container">
-          <div class="content-title">My Design Process</div>
-          <article class="article-width author-home-margin">
-            <div class="project-poster"><img srcset="./style/images/design-methodology@2x.png 2x, ./style/images/design-methodology.png 1x" src="./style/images/design-methodology.png" alt="Design and UX Methodology diagram"></div>
-            <div class="content-paragraph" style="margin: 40px 0 20px;">
-              The two mindsets that most influenced my thinking are
-              the <b> Double Diamond </b>framework and the <b> Lean Startup </b>methodology.
-              Here I integrated the two approaches. I use this model as a general
-              guide in my research and development process. 
+      <div class="content">
+        <div class="content-title title-page">My <span class="highlighted-text">design process</span></div>
+        <div class="content-box">
+          <div class="section">
+            <div class="single-column">
+              <h4>Problem discovery and Solution development</h4>
+              <p style="margin: 0 0 30px;">
+                The two mindsets that most influenced my thinking are
+                the <b class="highlighted-text">Double Diamond </b>framework and the  <b class="highlighted-text">Lean Startup </b>methodology.
+                Here I integrated the two approaches. I use this model as a general
+                guide in my research and development process. 
+              </p>
             </div>
-            <div class="content-paragraph" style="margin: 0 0 20px;">Other sources who shaped my thinking are: Steve Blank's <b>Customer Development </b>(The Startup Owner's Manual), Clayton Christensen's <b> Innovator's Dilemma </b>and <b> Jobs-to-Be-Done </b>theory, 
-              Rita Gunther McGrath's Transient Advantage and The End of Competitive Advantage
-              and Tim Brown's <b>Change By Design</b>.
+          </div>
+          <div class="section">
+            <div class="single-column">
+              <h4>Influences</h4>
+              <p style="margin: 0 0;">Other sources who shaped my thinking are: Steve Blank's <b class="highlighted-text">Customer Development </b>(The Startup Owner's Manual), Clayton Christensen's <b> Innovator's Dilemma </b>and <b class="highlighted-text"> Jobs-to-Be-Done </b>theory, 
+                Rita Gunther McGrath's Transient Advantage and The End of Competitive Advantage
+                and Tim Brown's <b>Change By Design</b>.
+              </p>
             </div>
-          </article>
+          </div>
+          <div class="section">
+            <div class="single-column">
+              <div class="project-poster"></div><img style="margin-top: 30px;" srcset="./style/images/design-methodology@2x.png 2x, ./style/images/design-methodology.png 1x" src="./style/images/design-methodology.png" alt="Design and UX Methodology diagram">
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <footer>
-      <div class="div" style="text-align:center; margin-bottom: 40px; font-size: 20px; color: white">Say hi 👋🏻 at <a id="hi-footer">
+      <div class="div" style="text-align:center; margin: 8px 0 16px; font-size: 20px; color: white">Say hi 👋🏻 at <a id="hi-footer">
           <div class="github-footer">
             <script>
               document.write(userNav + "@" + domainNav)
               document.getElementById('hi-footer').setAttribute('href', emailAddressNav);
             </script>
-          </div></a></div>Designed and coded from scratch by me. Peek behind the
-      curtains on <a href="https://github.com/stoico/dimartino" target="_blank" rel="noreferrer">
+          </div></a></div>Peek behind the
+      curtains on my <a href="https://github.com/stoico/dimartino" target="_blank" rel="noreferrer">
         <div class="github-footer"><img class="button-icon-footer" src="./style/images/github.svg" alt="Github"> GitHub</div></a>
       <div style="margin-top: 5px;">©
         <script>

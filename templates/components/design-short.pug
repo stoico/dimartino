@@ -1,30 +1,52 @@
-.main-container.shorter-container.rosy-gradient
-  .content-container
-    .content-title My Design Process
-    article.article-width.author-home-margin
-      .project-poster
-        img(srcset="./style/images/design-methodology@2x.png 2x, ./style/images/design-methodology.png 1x"
+.content
+  .content-title.title-page My 
+    span.highlighted-text design process
+  .content-box
+    .section
+      .single-column
+        h4 Problem discovery and Solution development
+        p(style="margin: 0 0 30px;")
+          | The two mindsets that most influenced my thinking are
+          | the 
+          b.highlighted-text Double Diamond 
+          | framework and the  
+          b.highlighted-text Lean Startup 
+          | methodology.
+          | Here I integrated the two approaches. I use this model as a general
+          | guide in my research and development process. 
+    .section
+      .single-column
+        h4 Influences
+        p(style="margin: 0 0;")
+          | Other sources who shaped my thinking are: Steve Blank's 
+          b.highlighted-text Customer Development 
+          | (The Startup Owner's Manual), Clayton Christensen's 
+          b  Innovator's Dilemma 
+          | and 
+          b.highlighted-text  Jobs-to-Be-Done 
+          | theory, 
+          | Rita Gunther McGrath's Transient Advantage and The End of Competitive Advantage
+          | and Tim Brown's 
+          b Change By Design
+          | .
+    .section
+      .single-column
+        .project-poster
+        img(style="margin-top: 30px;"
+            srcset="./style/images/design-methodology@2x.png 2x, ./style/images/design-methodology.png 1x"
             src="./style/images/design-methodology.png"
             alt="Design and UX Methodology diagram")
-      .content-paragraph(style="margin: 40px 0 20px;")
-        | The two mindsets that most influenced my thinking are
-        | the 
-        b  Double Diamond 
-        | framework and the 
-        b  Lean Startup 
-        | methodology.
-        | Here I integrated the two approaches. I use this model as a general
-        | guide in my research and development process. 
-      .content-paragraph(style="margin: 0 0 20px;")
-        | Other sources who shaped my thinking are: Steve Blank's 
-        b Customer Development 
-        | (The Startup Owner's Manual), Clayton Christensen's 
-        b  Innovator's Dilemma 
-        | and 
-        b  Jobs-to-Be-Done 
-        | theory, 
-        | Rita Gunther McGrath's Transient Advantage and The End of Competitive Advantage
-        | and Tim Brown's 
-        b Change By Design
-        | .
 
+  //- .content-title.title-page(style="margin-top: 60px !important;") What I can do 
+  //-   span.highlighted-text for you
+  //- .content-box
+  //-   .section
+  //-     .single-column
+  //-       ul
+  //-         li Find out what your users actually value
+  //-         li Increase your product's differentiation in relation to its competitors
+  //-         li Make your product more valuable to its current users
+  //-         li Find new ways to deliver value to the current customers with new products
+  //-         //- li Redesign experiences to reduce costs to the user (time savings) and to the business (monetary savings)
+  //-         li Reduce the amount of time and effort required to 'learn' your product
+  //-         li Reduce the amount of time you might waste building the wrong feature or product

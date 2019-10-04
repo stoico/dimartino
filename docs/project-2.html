@@ -37,6 +37,11 @@
           }
       }
     </script>
+    <script>
+      const userNav = 'cardimart';
+      const domainNav = 'gmail.com';
+      const emailAddressNav = 'mailto:' + userNav + "@" + domainNav;
+    </script>
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137496467-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -47,24 +52,22 @@
   </head>
   <body>
     <div class="page">
-      <header><a href="index.html">
-          <div class="logo"></div></a>
-        <div class="navigation-bar"><a href="index.html">
-            <div class="navigation-bar-item">
-              <div>Home</div>
-            </div></a><a href="portfolio.html">
-            <div class="navigation-bar-item">
-              <div>Portfolio</div>
-            </div></a><a id="email-link">
-            <div class="navigation-bar-item" style="width: 80px;">
-              <div style="display: flex; align-items: center; justify-content: center; padding-top: 4px; height: 38px;"><img src="./style/images/envelope.svg" alt="Contact me" style="width: 20px;"></div>
-            </div></a>
-          <script>
-            const userNav = 'cardimart';
-            const domainNav = 'gmail.com';
-            const emailAddressNav = 'mailto:' + userNav + "@" + domainNav;
-            document.getElementById('email-link').setAttribute('href', emailAddressNav);
-          </script>
+      <header>
+        <div class="menu"><a href="index.html">
+            <div class="logo"></div></a>
+          <div class="navigation-bar"><a href="index.html">
+              <div class="navigation-bar-item">
+                <p>Home</p>
+              </div></a><a href="projects.html">
+              <div class="navigation-bar-item">
+                <p>Projects</p>
+              </div></a><a href="method.html">
+              <div class="navigation-bar-item">
+                <p>My 'How'</p>
+              </div></a><a href="aboutme.html">
+              <div class="navigation-bar-item">
+                <p>About me</p>
+              </div></a></div>
         </div>
       </header>
       <div class="main-container just-blue-gradient">
@@ -136,14 +139,14 @@
       </div>
     </div>
     <footer>
-      <div class="div" style="text-align:center; margin-bottom: 40px; font-size: 20px; color: white">Say hi 👋🏻 at <a id="hi-footer">
+      <div class="div" style="text-align:center; margin: 8px 0 16px; font-size: 20px; color: white">Say hi 👋🏻 at <a id="hi-footer">
           <div class="github-footer">
             <script>
               document.write(userNav + "@" + domainNav)
               document.getElementById('hi-footer').setAttribute('href', emailAddressNav);
             </script>
-          </div></a></div>Designed and coded from scratch by me. Peek behind the
-      curtains on <a href="https://github.com/stoico/dimartino" target="_blank" rel="noreferrer">
+          </div></a></div>Peek behind the
+      curtains on my <a href="https://github.com/stoico/dimartino" target="_blank" rel="noreferrer">
         <div class="github-footer"><img class="button-icon-footer" src="./style/images/github.svg" alt="Github"> GitHub</div></a>
       <div style="margin-top: 5px;">©
         <script>

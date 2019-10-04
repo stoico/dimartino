@@ -37,6 +37,11 @@
           }
       }
     </script>
+    <script>
+      const userNav = 'cardimart';
+      const domainNav = 'gmail.com';
+      const emailAddressNav = 'mailto:' + userNav + "@" + domainNav;
+    </script>
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137496467-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -47,120 +52,93 @@
   </head>
   <body>
     <div class="page">
-      <header><a href="index.html">
-          <div class="logo"></div></a>
-        <div class="navigation-bar"><a href="index.html">
-            <div class="navigation-bar-item">
-              <div>Home</div>
-            </div></a><a href="portfolio.html">
-            <div class="navigation-bar-item">
-              <div>Portfolio</div>
-            </div></a><a id="email-link">
-            <div class="navigation-bar-item" style="width: 80px;">
-              <div style="display: flex; align-items: center; justify-content: center; padding-top: 4px; height: 38px;"><img src="./style/images/envelope.svg" alt="Contact me" style="width: 20px;"></div>
-            </div></a>
-          <script>
-            const userNav = 'cardimart';
-            const domainNav = 'gmail.com';
-            const emailAddressNav = 'mailto:' + userNav + "@" + domainNav;
-            document.getElementById('email-link').setAttribute('href', emailAddressNav);
-          </script>
+      <header>
+        <div class="menu"><a href="index.html">
+            <div class="logo"></div></a>
+          <div class="navigation-bar"><a href="index.html">
+              <div class="navigation-bar-item">
+                <p>Home</p>
+              </div></a><a href="projects.html">
+              <div class="navigation-bar-item">
+                <p>Projects</p>
+              </div></a><a href="method.html">
+              <div class="navigation-bar-item">
+                <p>My 'How'</p>
+              </div></a><a href="aboutme.html">
+              <div class="navigation-bar-item active-item">
+                <p>About me</p>
+              </div></a></div>
         </div>
       </header>
-      <div class="main-container red-gradient">
-        <label class="toggle-switch">High-fidelity
-          <input type="checkbox" onclick="switchToWireframe()"><i></i>Wireframe
-        </label>
-        <div class="content-container">
-          <div class="content-title">About me</div>
-          <div class="content-body">
-            <article class="article-width">
-              <div class="content-heading">Nice to meet you 👋🏻</div>
-              <div class="content-subheading">I’m a UX designer with strong Frontend development skills</div>
-              <div class="content-paragraph">
-                Cupcake ipsum dolor sit amet liquorice. Sesame snaps cake
-                chocolate bar I love. Caramels pie gummi bears<b> toffee</b> lemon drops bonbon pie cake. Danish soufflé
-                brownie soufflé jelly biscuit.
-              </div>
-              <div class="content-subheading">I’m an entrepreneurial spirit </div>
-              <div class="content-paragraph">
-                Cupcake ipsum dolor sit amet liquorice. Sesame snaps cake
-                chocolate bar I love. Caramels pie gummi bears<b> toffee</b> lemon drops bonbon pie cake. Danish soufflé
-                brownie soufflé jelly biscuit.
-              </div>
-              <div class="content-subheading">And an obsessive reader</div>
-              <div class="content-paragraph">
-                Cupcake ipsum dolor sit amet liquorice. Sesame snaps cake
-                chocolate bar I love. Caramels pie gummi bears<b> toffee</b> lemon drops bonbon pie cake. Danish soufflé
-                brownie soufflé jelly biscuit.
-              </div>
-              <div class="content-subheading">My source of Inspirations</div>
-              <div class="content-paragraph">
-                Cupcake ipsum dolor sit amet liquorice. Sesame snaps cake
-                chocolate bar I love. Caramels pie gummi bears<b> toffee</b> lemon drops bonbon pie cake. Danish soufflé
-                brownie soufflé jelly biscuit.
-              </div>
-              <blockquote>
-                Follow the path of the unsafe, independent thinker. 
-                Expose your ideas to the dangers of controversy. 
-                Speak your mind and fear less the label of ’crack-pot’ than the stigma of conformity. 
-                And on issues that seem important to you, stand up and be counted at any cost.
-                <cite>
-                   —	Thomas J. Watson</cite>
-              </blockquote>
-              <div class="content-paragraph">
-                Cupcake ipsum dolor sit amet liquorice. Sesame snaps cake
-                chocolate bar I love. Caramels pie <b> gummi bears</b> toffee
-                lemon drops bonbon pie cake. Danish soufflé brownie soufflé
-                jelly biscuit.
-              </div>
-              <div class="content-heading">Education</div>
-              <ul class="tech">
-                <li><img class="tech-icon" src="./style/images/graduation-cap.svg" alt="HTML5">MA, User Experience Design<span style="font-size: 15px; display: inherit; margin: 10px 0 0 45px;">Loughborough University</span></li>
-                <li><img class="tech-icon" src="./style/images/graduation-cap.svg" alt="CSS">BSc, Computer Science and Business Administration<span style="font-size: 15px; display: inherit; margin: 10px 0 0 45px;"> University of Kent</span></li>
-              </ul>
-              <div class="content-heading">Say hello</div>
-              <div style="text-align: center; margin-top: 30px;">
-                <div class="button-border"><a id="email-button">
-                    <div class="button-action"><img class="button-icon" src="./style/images/envelope-solid.svg" alt="Email">Email</div></a></div>
-                <div class="button-border"><a href="https://github.com/stoico/dimartino" target="_blank">
-                    <div class="button-action"><img class="button-icon" src="./style/images/github.svg" alt="Github">Github</div></a></div>
-                <div class="button-border"><a href="https://www.linkedin.com/in/carmine-dimartino/" target="_blank">
-                    <div class="button-action"><img class="button-icon" src="./style/images/linkedin.svg" alt="Linkedin">Linkedin</div></a></div>
-              </div>
-            </article>
+      <div class="content">
+        <div class="content-title title-page">A bit more <span class="highlighted-text">about me</span></div>
+        <div class="content-box">
+          <div class="section">
+            <div class="single-column">
+              <h4>I’m a UX designer with strong Frontend development skills,</h4>
+              <p>
+                but more than anything, I enjoy dissecting the big picture and making sense of complexity. I understand that everything has a trade-off.
+                I like to challenge conventional wisdom and to explore unusual ideas.
+              </p>
+            </div>
+          </div>
+          <div class="section"> 
+            <div class="single-column">
+              <h4>I’m an avid reader with an entrepreneurial spirit</h4>
+              <p>
+                Passionate about tech and startups and thinking about product strategy. 
+                I have a formal background in <span class="highlighted-text">Computer Science </span>and <span class="highlighted-text">Business Administration </span>(Bachelor's) and <span class="highlighted-text">User Experience Design </span>(Master's).
+                In my spare time I experiment with side projects (mostly web apps). I enjoy seeing the difference that products make in people's lives.
+              </p>
+            </div>
+          </div>
+          <div class="section" style="min-height: 0px !important;">
+            <div class="single-column">
+              <div style="text-align: center;"><a id="email-button">
+                  <div class="ghost-button"><img class="button-icon" src="./style/images/envelope-solid.svg" alt="Email">Email</div></a><a href="https://github.com/stoico/dimartino" target="_blank">
+                  <div class="ghost-button"><img class="button-icon" src="./style/images/github.svg" alt="Github">Github</div></a><a href="https://www.linkedin.com/in/carmine-dimartino/" target="_blank">
+                  <div class="ghost-button"><img class="button-icon" src="./style/images/linkedin.svg" alt="Linkedin">Linkedin</div></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="content-title title-page" style="margin-top: 60px !important;">My <span class="highlighted-text">toolkit</span></div>
+        <div class="content-box">
+          <div class="section" style="min-height: 0px !important;">
+            <div class="section-label neon-green-label">Product Design</div>
+            <div class="single-column" style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; ">
+              <p style="margin-top: 20px !important;">Sketch </p>
+              <p style="margin-top: 20px !important;">inVision</p>
+              <p style="margin-top: 20px !important;">Framer </p>
+              <p style="margin-top: 20px !important;">Adobe CC</p>
+            </div>
+          </div>
+        </div>
+        <div class="content-box" style="margin-bottom: 30px !important;">
+          <div class="section" style="min-height: 0px !important;">
+            <div class="section-label neon-green-label">Frontend Development</div>
+            <div class="single-column" style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; ">
+              <p style="margin-top: 20px !important;">JavaScript </p>
+              <p style="margin-top: 20px !important;">React</p>
+              <p style="margin-top: 20px !important;">HTML</p>
+              <p style="margin-top: 20px !important;">CSS</p>
+              <p style="margin-top: 20px !important;">Vue.js </p>
+              <p style="margin-top: 20px !important;">Python</p>
+            </div>
           </div>
         </div>
       </div>
       <script>document.getElementById('email-button').setAttribute('href', emailAddressNav);</script>
-      <div class="main-container shorter-container rosy-gradient">
-        <div class="content-container">
-          <div class="content-title">My Design Process</div>
-          <article class="article-width author-home-margin">
-            <div class="project-poster"><img srcset="./style/images/design-methodology@2x.png 2x, ./style/images/design-methodology.png 1x" src="./style/images/design-methodology.png" alt="Design and UX Methodology diagram"></div>
-            <div class="content-paragraph" style="margin: 40px 0 20px;">
-              The two mindsets that most influenced my thinking are
-              the <b> Double Diamond </b>framework and the <b> Lean Startup </b>methodology.
-              Here I integrated the two approaches. I use this model as a general
-              guide in my research and development process. 
-            </div>
-            <div class="content-paragraph" style="margin: 0 0 20px;">Other sources who shaped my thinking are: Steve Blank's <b>Customer Development </b>(The Startup Owner's Manual), Clayton Christensen's <b> Innovator's Dilemma </b>and <b> Jobs-to-Be-Done </b>theory, 
-              Rita Gunther McGrath's Transient Advantage and The End of Competitive Advantage
-              and Tim Brown's <b>Change By Design</b>.
-            </div>
-          </article>
-        </div>
-      </div>
+      <div style="margin: auto; display: flex; justify-content: center;"><img style="margin: 50px 15px -25px;" srcset="./style/images/startup-award@2x.png 2x, ./style/images/startup-award.png 1x" src="./style/images/startup-award.png" alt="Design and UX Methodology diagram"><img style="margin: 50px 15px -25px;" srcset="./style/images/uxathon-award@2x.png 2x, ./style/images/uxathon-award.png 1x" src="./style/images/uxathon-award.png" alt="Design and UX Methodology diagram"></div>
     </div>
     <footer>
-      <div class="div" style="text-align:center; margin-bottom: 40px; font-size: 20px; color: white">Say hi 👋🏻 at <a id="hi-footer">
+      <div class="div" style="text-align:center; margin: 8px 0 16px; font-size: 20px; color: white">Say hi 👋🏻 at <a id="hi-footer">
           <div class="github-footer">
             <script>
               document.write(userNav + "@" + domainNav)
               document.getElementById('hi-footer').setAttribute('href', emailAddressNav);
             </script>
-          </div></a></div>Designed and coded from scratch by me. Peek behind the
-      curtains on <a href="https://github.com/stoico/dimartino" target="_blank" rel="noreferrer">
+          </div></a></div>Peek behind the
+      curtains on my <a href="https://github.com/stoico/dimartino" target="_blank" rel="noreferrer">
         <div class="github-footer"><img class="button-icon-footer" src="./style/images/github.svg" alt="Github"> GitHub</div></a>
       <div style="margin-top: 5px;">©
         <script>

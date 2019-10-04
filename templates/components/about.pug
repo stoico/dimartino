@@ -1,109 +1,69 @@
-.main-container.red-gradient
-  include ../particles/toggle-switch.pug
-  .content-container
-    .content-title About me
-    .content-body
-      article.article-width
-        .content-heading Nice to meet you 👋🏻
-        .content-subheading
-          | I’m a UX designer with strong Frontend development skills
-        .content-paragraph
-          | Cupcake ipsum dolor sit amet liquorice. Sesame snaps cake
-          | chocolate bar I love. Caramels pie gummi bears
-          b  toffee
-          |  lemon drops bonbon pie cake. Danish soufflé
-          | brownie soufflé jelly biscuit.
-        .content-subheading
-          | I’m an entrepreneurial spirit 
-        .content-paragraph
-          | Cupcake ipsum dolor sit amet liquorice. Sesame snaps cake
-          | chocolate bar I love. Caramels pie gummi bears
-          b  toffee
-          |  lemon drops bonbon pie cake. Danish soufflé
-          | brownie soufflé jelly biscuit.
-        .content-subheading
-          | And an obsessive reader
-        .content-paragraph
-          | Cupcake ipsum dolor sit amet liquorice. Sesame snaps cake
-          | chocolate bar I love. Caramels pie gummi bears
-          b  toffee
-          |  lemon drops bonbon pie cake. Danish soufflé
-          | brownie soufflé jelly biscuit.
-        .content-subheading
-          | My source of Inspirations
-        .content-paragraph
-          | Cupcake ipsum dolor sit amet liquorice. Sesame snaps cake
-          | chocolate bar I love. Caramels pie gummi bears
-          b  toffee
-          |  lemon drops bonbon pie cake. Danish soufflé
-          | brownie soufflé jelly biscuit.
-        blockquote
-          | Follow the path of the unsafe, independent thinker. 
-          | Expose your ideas to the dangers of controversy. 
-          | Speak your mind and fear less the label of ’crack-pot’ than the stigma of conformity. 
-          | And on issues that seem important to you, stand up and be counted at any cost.
-          cite  
-            | —	Thomas J. Watson
-        //- .content-heading Skills
-        //- .content-paragraph
-        //-   div(style="flex: 1; margin: 10px 0; flex-direction: row; align-items: center;")
-        //-     div(style="display:inline-block; padding: 0 16px; font-size: 14px; background: hsla(184, 100%, 41%, 0.12); border-radius: 20px;")
-        //-       | User research
-        //-     div(style="display:inline-block; padding: 0 16px; font-size: 14px; background: hsla(184, 100%, 41%, 0.12); border-radius: 20px;")
-        //-       | Prototyping
-        //-     div(style="display:inline-block; padding: 0 16px; font-size: 14px; background: hsla(184, 100%, 41%, 0.12); border-radius: 20px;")
-        //-       | Usability testing
-        //-     div(style="display:inline-block; padding: 0 16px; font-size: 14px; background: hsla(184, 100%, 41%, 0.12); border-radius: 20px;")
-        //-       | Product design
-        //-     div(style="display:inline-block; padding: 0 16px; font-size: 14px; background: hsla(184, 100%, 41%, 0.12); border-radius: 20px;")
-        //-       | Front-end development
-        .content-paragraph
-          | Cupcake ipsum dolor sit amet liquorice. Sesame snaps cake
-          | chocolate bar I love. Caramels pie 
-          b  gummi bears
-          |  toffee
-          | lemon drops bonbon pie cake. Danish soufflé brownie soufflé
-          | jelly biscuit.
-        //- script(type='text/javascript').
-        //-   user = "info";
-        //-   domain = "mysite.com";
-        //-   document.write(
-        //-   'E-mail: <a href="mailto:' +
-        //-   user +
-        //-   "@" +
-        //-   domain +
-        //-   '">' +
-        //-   user +
-        //-   "@" +
-        //-   domain +
-        //-   "</a>"
-        //-   );
-        .content-heading Education
-        ul.tech
-          li
-            img.tech-icon(src='./style/images/graduation-cap.svg', alt='HTML5')
-            | MA, User Experience Design
-            span(style="font-size: 15px; display: inherit; margin: 10px 0 0 45px;") Loughborough University
-          li
-            img.tech-icon(src='./style/images/graduation-cap.svg', alt='CSS')
-            | BSc, Computer Science and Business Administration
-            span(style="font-size: 15px; display: inherit; margin: 10px 0 0 45px;")  University of Kent
-        .content-heading Say hello
-        div(style='text-align: center; margin-top: 30px;')
-          .button-border
+.content
+  .content-title.title-page A bit more 
+    span.highlighted-text about me
+  .content-box
+    //- .article-width
+    .section
+      .single-column
+        h4 I’m a UX designer with strong Frontend development skills,
+        p
+          | but more than anything, I enjoy dissecting the big picture and making sense of complexity. I understand that everything has a trade-off.
+          | I like to challenge conventional wisdom and to explore unusual ideas.
+    .section  
+      .single-column
+        h4 I’m an avid reader with an entrepreneurial spirit
+        p
+          | Passionate about tech and startups and thinking about product strategy. 
+          | I have a formal background in 
+          span.highlighted-text Computer Science 
+          | and 
+          span.highlighted-text Business Administration 
+          | (Bachelor's) and 
+          span.highlighted-text User Experience Design 
+          | (Master's).
+          | In my spare time I experiment with side projects (mostly web apps). I enjoy seeing the difference that products make in people's lives.
+    //- .section  
+    //-   .single-column
+    //-     blockquote
+    //-       | Follow the path of the unsafe, independent thinker. 
+    //-       | Expose your ideas to the dangers of controversy. 
+    //-       | Speak your mind and fear less the label of ’crack-pot’ than the stigma of conformity. 
+    //-       cite  
+    //-         | —	Thomas J. Watson
+    .section(style="min-height: 0px !important;")
+      .single-column
+        div(style='text-align: center;')
             a#email-button
-              .button-action
+              .ghost-button
                 img.button-icon(src='./style/images/envelope-solid.svg', alt='Email')
                 | Email
-          .button-border
             a(href="https://github.com/stoico/dimartino" target="_blank")
-              .button-action
+              .ghost-button
                 img.button-icon(src='./style/images/github.svg', alt='Github')
                 | Github
-          .button-border
             a(href="https://www.linkedin.com/in/carmine-dimartino/" target="_blank")
-              .button-action
+              .ghost-button
                 img.button-icon(src='./style/images/linkedin.svg', alt='Linkedin')
                 | Linkedin
+  .content-title.title-page(style="margin-top: 60px !important;") My 
+    span.highlighted-text toolkit
+  .content-box
+    .section(style="min-height: 0px !important;")
+      .section-label.neon-green-label Product Design
+      .single-column(style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; ")
+        p(style="margin-top: 20px !important;") Sketch 
+        p(style="margin-top: 20px !important;") inVision
+        p(style="margin-top: 20px !important;") Framer 
+        p(style="margin-top: 20px !important;") Adobe CC
+  .content-box(style="margin-bottom: 30px !important;")
+    .section(style="min-height: 0px !important;")
+      .section-label.neon-green-label Frontend Development
+      .single-column(style="display: flex; flex-direction: row; justify-content: space-around; align-items: center; ")
+        p(style="margin-top: 20px !important;") JavaScript 
+        p(style="margin-top: 20px !important;") React
+        p(style="margin-top: 20px !important;") HTML
+        p(style="margin-top: 20px !important;") CSS
+        p(style="margin-top: 20px !important;") Vue.js 
+        p(style="margin-top: 20px !important;") Python
 script.
     document.getElementById('email-button').setAttribute('href', emailAddressNav);

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Carmine Di Martino - Projects</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Carmine Di Martino's Portfolio">
+    <meta name="keywords" content="Carmine,Di Martino,Portfolio,UX,">
+    <link rel="apple-touch-icon" sizes="180x180" href="./style/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./style/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./style/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./style/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./style/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+    <script>
+      //- Toggles the alternative wireframe stylesheet.
+      //- Adds and removes:  <link rel="stylesheet" href="./style/wireframe.css" />
+      //- From <head>
+      let wireframe = false;
+      const head = document.head;
+      const link = document.createElement("link");
+      
+      function switchToWireframe() {
+          if (wireframe) {
+              wireframe = false;
+              head.removeChild(link);
+          } else {
+              link.type = "text/css";
+              link.rel = "stylesheet";
+              link.href = "./style/wireframe.css";
+      
+              wireframe = true;
+              head.appendChild(link);
+          }
+      }
+    </script>
+    <script>
+      const userNav = 'cardimart';
+      const domainNav = 'gmail.com';
+      const emailAddressNav = 'mailto:' + userNav + "@" + domainNav;
+    </script>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-137496467-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-137496467-1');
+    </script>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <div class="menu"><a href="index.html">
+            <div class="logo"></div></a>
+          <div class="navigation-bar"><a href="index.html">
+              <div class="navigation-bar-item">
+                <p>Home</p>
+              </div></a><a href="projects.html">
+              <div class="navigation-bar-item active-item">
+                <p>Projects</p>
+              </div></a><a href="method.html">
+              <div class="navigation-bar-item">
+                <p>My 'How'</p>
+              </div></a><a href="aboutme.html">
+              <div class="navigation-bar-item">
+                <p>About me</p>
+              </div></a></div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="content-title title-page">My <span class="highlighted-text">projects </span></div>
+        <div class="content-box project-box">  
+          <div class="single-column-project-container"><a href="startup-map.html">
+              <div class="project-poster clip-polygon-inverse"><img srcset="./style/images/thumb@2x.png 2x, ./style/images/thumb.png 1x" src="./style/images/thumb.png" alt="Cross-platform native app"></div>
+              <div class="project-info">
+                <div class="project-title">Startup Map - Web application in Knockout.js</div>
+                <div class="project-description">
+                  A single-page Knockout.js application that integrates the Google Maps API
+                  and the Lever API to display a map of startups.
+                </div>
+              </div>
+              <div class="project-button">
+                <div class="ghost-button" style="padding: 20px 21px !important;">→</div>
+              </div></a></div>
+        </div>
+        <div class="content-box project-box">   
+          <div class="single-column-project-container"><a href="flask-app.html">
+              <div class="project-poster clip-polygon"><img srcset="./style/images/fullstack-thumb@2x.png 2x, ./style/images/fullstack-thumb.png 1x" src="./style/images/fullstack-thumb.png" alt="Cross-platform native app"></div>
+              <div class="project-info">
+                <div class="project-title">Full-stack Python web app - Flask and SQLite</div>
+                <div class="project-description">
+                  Flask web app with an SQL database 
+                  and Google APIs for authentication and authorization.
+                  Deployed on an Apache server with mod_wsgi.
+                </div>
+              </div>
+              <div class="project-button">
+                <div class="ghost-button" style="padding: 20px 21px !important;">→</div>
+              </div></a></div>
+        </div>
+        <div class="content-box project-box">  
+          <div class="single-column-project-container"><a href="react-native-app.html">
+              <div class="project-poster clip-polygon-inverse"><img srcset="./style/images/thumb-seriesly@2x.png 2x, ./style/images/thumb-seriesly.png 1x" src="./style/images/thumb-seriesly.png" alt="Cross-platform native app"></div>
+              <div class="ring-container">
+                <div class="ringring"></div>
+                <div class="circle"></div>
+              </div>
+              <div class="project-info">
+                <div class="project-title">Recommendation platform - React Native and Firebase, for iOS and Android</div>
+                <div class="project-description">
+                  Share and receive recommendations on what to watch next 
+                  from people you know. Tech stack: JavaScript, React, Firebase suite
+                </div>
+              </div>
+              <div class="project-button">
+                <div class="ghost-button" style="padding: 20px 21px !important;">→</div>
+              </div></a></div>
+        </div>
+        <div class="content-title title-page" style="margin-top: 4vw !important">Currently working on</div>
+        <div class="content-box project-box">
+          <div class="single-column-project-container"><a href="upliftey.html">
+              <div class="project-poster clip-polygon"><img srcset="./style/images/upliftey-thumb@2x.png 2x, ./style/images/upliftey-thumb.png 1x" src="./style/images/upliftey-thumb.png" alt="Casual Learning Research"></div>
+              <div class="project-info">
+                <div class="project-title">Upliftey.com</div>
+                <div class="project-description">Guided self-reflection web app to build lasting self-esteem. Built with Vue and Nuxt.js.</div>
+              </div>
+              <div class="project-button">
+                <div class="ghost-button" style="padding: 20px 21px !important;">→</div>
+              </div></a></div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="div" style="text-align:center; margin: 8px 0 16px; font-size: 20px; color: white">Say hi 👋🏻 at <a id="hi-footer">
+          <div class="github-footer">
+            <script>
+              document.write(userNav + "@" + domainNav)
+              document.getElementById('hi-footer').setAttribute('href', emailAddressNav);
+            </script>
+          </div></a></div>Peek behind the
+      curtains on my <a href="https://github.com/stoico/dimartino" target="_blank" rel="noreferrer">
+        <div class="github-footer"><img class="button-icon-footer" src="./style/images/github.svg" alt="Github"> GitHub</div></a>
+      <div style="margin-top: 5px;">©
+        <script>
+          const date = new Date();
+          document.write(date.getYear() + 1900);
+        </script> Carmine Di Martino
+      </div>
+    </footer>
+  </body>
+</html>
